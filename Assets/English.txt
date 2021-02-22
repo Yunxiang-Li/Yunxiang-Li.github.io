@@ -1,0 +1,4 @@
+Scores:
+Life:
+You lose, Press r to restart!
+You win, Press n to next level!

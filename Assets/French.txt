@@ -1,0 +1,4 @@
+But:
+la vie:
+Vous perdez, appuyez sur r pour redémarrer！
+Vous gagnez, appuyez sur n au niveau suivant!
