@@ -1,0 +1,133 @@
+\hypertarget{class_text}{}\doxysection{Text Class Reference}
+\label{class_text}\index{Text@{Text}}
+
+
+\mbox{\hyperlink{class_text}{Text}} class inherits \mbox{\hyperlink{class_entity}{Entity}} pure virtual class and constrols the game \mbox{\hyperlink{class_text}{Text}}\textquotesingle{}s behaviour.  
+
+
+
+
+{\ttfamily \#include $<$Text.\+h$>$}
+
+
+
+Inheritance diagram for Text\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=122pt]{class_text__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Text\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=122pt]{class_text__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_text_a75973a70e504b2052060fb1a8918c617}{Text}} (SDL\+\_\+\+Renderer $\ast$renderer, const SDL\+\_\+\+Rect \&rect)
+\begin{DoxyCompactList}\small\item\em One arugument construcor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_text_a2d49e5c280e205125b149f7777ae30c7}\label{class_text_a2d49e5c280e205125b149f7777ae30c7}} 
+\mbox{\hyperlink{class_text_a2d49e5c280e205125b149f7777ae30c7}{$\sim$\+Text}} ()
+\begin{DoxyCompactList}\small\item\em Destructor of \mbox{\hyperlink{class_text}{Text}} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_text_a5928cae2d2332d148e169b75bed8631c}{Update}} (float delta)
+\begin{DoxyCompactList}\small\item\em Update the text\textquotesingle{}s condition in delta time. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_text_a4dd3d430599d8216537c84c95dce8dcb}\label{class_text_a4dd3d430599d8216537c84c95dce8dcb}} 
+void \mbox{\hyperlink{class_text_a4dd3d430599d8216537c84c95dce8dcb}{Render}} ()
+\begin{DoxyCompactList}\small\item\em Render the paddle. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_text_a9a1e3f2d04537b16940ce33f73fd4eed}{Set\+Num}} (int num)
+\begin{DoxyCompactList}\small\item\em Set text\textquotesingle{}s number. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_text_a25b69f30d5390bb51b9382619bba6bec}{Set\+Str}} (const std\+::string \&)
+\begin{DoxyCompactList}\small\item\em Set text\textquotesingle{}s string contents. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{class_text}{Text}} class inherits \mbox{\hyperlink{class_entity}{Entity}} pure virtual class and constrols the game \mbox{\hyperlink{class_text}{Text}}\textquotesingle{}s behaviour. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_text_a75973a70e504b2052060fb1a8918c617}\label{class_text_a75973a70e504b2052060fb1a8918c617}} 
+\index{Text@{Text}!Text@{Text}}
+\index{Text@{Text}!Text@{Text}}
+\doxysubsubsection{\texorpdfstring{Text()}{Text()}}
+{\footnotesize\ttfamily Text\+::\+Text (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer $\ast$}]{renderer,  }\item[{const SDL\+\_\+\+Rect \&}]{rect }\end{DoxyParamCaption})}
+
+
+
+One arugument construcor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em renderer} & A pointer to a SDL\+\_\+\+Renderer indicates the renderer of the current game window. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_text_a9a1e3f2d04537b16940ce33f73fd4eed}\label{class_text_a9a1e3f2d04537b16940ce33f73fd4eed}} 
+\index{Text@{Text}!SetNum@{SetNum}}
+\index{SetNum@{SetNum}!Text@{Text}}
+\doxysubsubsection{\texorpdfstring{SetNum()}{SetNum()}}
+{\footnotesize\ttfamily void Text\+::\+Set\+Num (\begin{DoxyParamCaption}\item[{int}]{num }\end{DoxyParamCaption})}
+
+
+
+Set text\textquotesingle{}s number. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em num} & An integer to set the text\textquotesingle{}s content. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_text_a25b69f30d5390bb51b9382619bba6bec}\label{class_text_a25b69f30d5390bb51b9382619bba6bec}} 
+\index{Text@{Text}!SetStr@{SetStr}}
+\index{SetStr@{SetStr}!Text@{Text}}
+\doxysubsubsection{\texorpdfstring{SetStr()}{SetStr()}}
+{\footnotesize\ttfamily void Text\+::\+Set\+Str (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{str }\end{DoxyParamCaption})}
+
+
+
+Set text\textquotesingle{}s string contents. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & An integer to set the text\textquotesingle{}s content. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=251pt]{class_text_a25b69f30d5390bb51b9382619bba6bec_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_text_a5928cae2d2332d148e169b75bed8631c}\label{class_text_a5928cae2d2332d148e169b75bed8631c}} 
+\index{Text@{Text}!Update@{Update}}
+\index{Update@{Update}!Text@{Text}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Text\+::\+Update (\begin{DoxyParamCaption}\item[{float}]{delta }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Update the text\textquotesingle{}s condition in delta time. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em delta} & A float indicates the delta time. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_entity_abe791a71d714766000f79619f1b5e99f}{Entity}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Text.\+h\item 
+src/Text.\+cpp\end{DoxyCompactItemize}

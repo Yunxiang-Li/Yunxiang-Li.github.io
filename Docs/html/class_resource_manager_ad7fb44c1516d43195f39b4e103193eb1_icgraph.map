@@ -1,0 +1,4 @@
+<map id="ResourceManager::loadPNGFile" name="ResourceManager::loadPNGFile">
+<area shape="rect" id="node1" title="Load a single PNG file according to its relative path." alt="" coords="136,5,344,32"/>
+<area shape="rect" id="node2" href="$class_game.html#ab19596de871e7ce3ce5effc888c2a30b" title="Initialize the whole game." alt="" coords="5,5,88,32"/>
+</map>

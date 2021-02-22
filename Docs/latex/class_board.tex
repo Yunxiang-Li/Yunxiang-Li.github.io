@@ -1,0 +1,100 @@
+\hypertarget{class_board}{}\doxysection{Board Class Reference}
+\label{class_board}\index{Board@{Board}}
+
+
+One argument constructor.  
+
+
+
+
+{\ttfamily \#include $<$Board.\+h$>$}
+
+
+
+Inheritance diagram for Board\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=122pt]{class_board__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Board\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=122pt]{class_board__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_board_a04c486ebbe8171dfa7fbc6dbd3bdb32d}\label{class_board_a04c486ebbe8171dfa7fbc6dbd3bdb32d}} 
+{\bfseries Board} (SDL\+\_\+\+Renderer $\ast$renderer)
+\item 
+\mbox{\Hypertarget{class_board_af73f45730119a1fd8f6670f53f959e68}\label{class_board_af73f45730119a1fd8f6670f53f959e68}} 
+\mbox{\hyperlink{class_board_af73f45730119a1fd8f6670f53f959e68}{$\sim$\+Board}} ()
+\begin{DoxyCompactList}\small\item\em Destructor of \mbox{\hyperlink{class_board}{Board}} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_board_aa1fb89db8206ace3f973f2f911af4125}{Update}} (float delta)
+\begin{DoxyCompactList}\small\item\em Update the game board\textquotesingle{}s condition in delta time. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_board_adf586f328ba9c106ec171543bb2745cf}\label{class_board_adf586f328ba9c106ec171543bb2745cf}} 
+void \mbox{\hyperlink{class_board_adf586f328ba9c106ec171543bb2745cf}{Render}} ()
+\begin{DoxyCompactList}\small\item\em Render sides and bricks. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_board_a905cd7ac7440b0056e1edf76bddaa920}\label{class_board_a905cd7ac7440b0056e1edf76bddaa920}} 
+void \mbox{\hyperlink{class_board_a905cd7ac7440b0056e1edf76bddaa920}{Create\+Level}} (const std\+::vector$<$ std\+::vector$<$ std\+::vector$<$ int $>$$>$$>$ \&level\+Deque, unsigned i)
+\begin{DoxyCompactList}\small\item\em Create the whole level. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_board_a15af991884e173b5df3b209034d615c1}\label{class_board_a15af991884e173b5df3b209034d615c1}} 
+float {\bfseries m\+Brick\+Left\+Offset}
+\item 
+\mbox{\Hypertarget{class_board_a82d08b8ef02c228082f52feb32b23443}\label{class_board_a82d08b8ef02c228082f52feb32b23443}} 
+float {\bfseries m\+Brick\+Top\+Offset}
+\item 
+\mbox{\Hypertarget{class_board_aeb6ef8feb6d8bfc19e3cd6e68f90babd}\label{class_board_aeb6ef8feb6d8bfc19e3cd6e68f90babd}} 
+std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{struct_brick}{Brick}} $>$ $>$ {\bfseries m\+Bricks}
+\item 
+\mbox{\Hypertarget{class_board_a4538bce067bbfb0398ee7acbeebec7c6}\label{class_board_a4538bce067bbfb0398ee7acbeebec7c6}} 
+unsigned {\bfseries level\+Row\+Num} \{0\}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+One argument constructor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em renderer} & A pointer to a SDL\+\_\+\+Renderer indicates the renderer of the current game window. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_board_aa1fb89db8206ace3f973f2f911af4125}\label{class_board_aa1fb89db8206ace3f973f2f911af4125}} 
+\index{Board@{Board}!Update@{Update}}
+\index{Update@{Update}!Board@{Board}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Board\+::\+Update (\begin{DoxyParamCaption}\item[{float}]{delta }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Update the game board\textquotesingle{}s condition in delta time. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em delta} & A float indicates the delta time. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_entity_abe791a71d714766000f79619f1b5e99f}{Entity}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Board.\+h\item 
+src/Board.\+cpp\end{DoxyCompactItemize}

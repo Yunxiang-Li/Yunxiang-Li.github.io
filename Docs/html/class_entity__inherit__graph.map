@@ -1,0 +1,7 @@
+<map id="Entity" name="Entity">
+<area shape="rect" id="node1" title="The basic component of each real object in the game. Entity is actually a pure virtual class." alt="" coords="115,5,171,32"/>
+<area shape="rect" id="node2" href="$class_ball.html" title="Ball class inherits Entity pure virtual class and constrols the ball&#39;s behaviour." alt="" coords="5,80,49,107"/>
+<area shape="rect" id="node3" href="$class_board.html" title="One argument constructor." alt="" coords="74,80,130,107"/>
+<area shape="rect" id="node4" href="$class_paddle.html" title="Paddle class inherits Entity pure virtual class and constrols the paddle&#39;s behaviour." alt="" coords="155,80,217,107"/>
+<area shape="rect" id="node5" href="$class_text.html" title="Text class inherits Entity pure virtual class and constrols the game Text&#39;s behaviour." alt="" coords="241,80,288,107"/>
+</map>

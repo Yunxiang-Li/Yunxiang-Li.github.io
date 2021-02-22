@@ -1,0 +1,124 @@
+\hypertarget{class_paddle}{}\doxysection{Paddle Class Reference}
+\label{class_paddle}\index{Paddle@{Paddle}}
+
+
+\mbox{\hyperlink{class_paddle}{Paddle}} class inherits \mbox{\hyperlink{class_entity}{Entity}} pure virtual class and constrols the paddle\textquotesingle{}s behaviour.  
+
+
+
+
+{\ttfamily \#include $<$Paddle.\+h$>$}
+
+
+
+Inheritance diagram for Paddle\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=127pt]{class_paddle__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Paddle\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=127pt]{class_paddle__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paddle_a44ee1ad381e793703eb2c14f152c3d8c}{Paddle}} (SDL\+\_\+\+Renderer $\ast$renderer)
+\begin{DoxyCompactList}\small\item\em One arugument construcor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paddle_ac03c6b92f0b9cd2e67edff4c318ad030}\label{class_paddle_ac03c6b92f0b9cd2e67edff4c318ad030}} 
+\mbox{\hyperlink{class_paddle_ac03c6b92f0b9cd2e67edff4c318ad030}{$\sim$\+Paddle}} ()
+\begin{DoxyCompactList}\small\item\em Destructor of \mbox{\hyperlink{class_paddle}{Paddle}} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paddle_a8a3aa86f567315423f92ecfb5fd3b6f5}{Update}} (float delta)
+\begin{DoxyCompactList}\small\item\em Update the paddle\textquotesingle{}s condition in delta time. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{class_paddle_a028df821bb4ecd16c59cadb55e5f89ba}\label{class_paddle_a028df821bb4ecd16c59cadb55e5f89ba}} 
+void \mbox{\hyperlink{class_paddle_a028df821bb4ecd16c59cadb55e5f89ba}{Render}} ()
+\begin{DoxyCompactList}\small\item\em Render the paddle. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_paddle_a3000ae6b88528340f8ae58a6e1c2cc43}{set\+Direction}} (const \mbox{\hyperlink{class_vector2_d}{Vector2D}} \&direction)
+\begin{DoxyCompactList}\small\item\em Set the paddle\textquotesingle{}s direction. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_paddle_a58833a4f5e2a87c0390327f82fef4db5}\label{class_paddle_a58833a4f5e2a87c0390327f82fef4db5}} 
+float {\bfseries m\+Speed} \{0\}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{class_paddle}{Paddle}} class inherits \mbox{\hyperlink{class_entity}{Entity}} pure virtual class and constrols the paddle\textquotesingle{}s behaviour. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paddle_a44ee1ad381e793703eb2c14f152c3d8c}\label{class_paddle_a44ee1ad381e793703eb2c14f152c3d8c}} 
+\index{Paddle@{Paddle}!Paddle@{Paddle}}
+\index{Paddle@{Paddle}!Paddle@{Paddle}}
+\doxysubsubsection{\texorpdfstring{Paddle()}{Paddle()}}
+{\footnotesize\ttfamily Paddle\+::\+Paddle (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer $\ast$}]{renderer }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+
+
+One arugument construcor. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em renderer} & A pointer to a SDL\+\_\+\+Renderer indicates the renderer of the current game window. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paddle_a3000ae6b88528340f8ae58a6e1c2cc43}\label{class_paddle_a3000ae6b88528340f8ae58a6e1c2cc43}} 
+\index{Paddle@{Paddle}!setDirection@{setDirection}}
+\index{setDirection@{setDirection}!Paddle@{Paddle}}
+\doxysubsubsection{\texorpdfstring{setDirection()}{setDirection()}}
+{\footnotesize\ttfamily void Paddle\+::set\+Direction (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_vector2_d}{Vector2D}} \&}]{direction }\end{DoxyParamCaption})}
+
+
+
+Set the paddle\textquotesingle{}s direction. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir} & A reference to a const \mbox{\hyperlink{class_vector2_d}{Vector2D}} object indicates the paddle\textquotesingle{}s direction. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=286pt]{class_paddle_a3000ae6b88528340f8ae58a6e1c2cc43_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_paddle_a8a3aa86f567315423f92ecfb5fd3b6f5}\label{class_paddle_a8a3aa86f567315423f92ecfb5fd3b6f5}} 
+\index{Paddle@{Paddle}!Update@{Update}}
+\index{Update@{Update}!Paddle@{Paddle}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Paddle\+::\+Update (\begin{DoxyParamCaption}\item[{float}]{delta }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Update the paddle\textquotesingle{}s condition in delta time. 
+
+Update paddle\textquotesingle{}s condition in delta time.
+
+
+\begin{DoxyParams}{Parameters}
+{\em delta} & A float indicates the delta time. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{class_entity_abe791a71d714766000f79619f1b5e99f}{Entity}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Paddle.\+h\item 
+src/Paddle.\+cpp\end{DoxyCompactItemize}

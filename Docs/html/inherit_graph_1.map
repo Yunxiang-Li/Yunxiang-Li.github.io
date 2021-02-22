@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$class_entity.html" title="The basic component of each real object in the game. Entity is actually a pure virtual class." alt="" coords="5,81,61,108"/>
+<area shape="rect" id="node2" href="$class_ball.html" title="Ball class inherits Entity pure virtual class and constrols the ball&#39;s behaviour." alt="" coords="119,5,163,32"/>
+<area shape="rect" id="node3" href="$class_board.html" title="One argument constructor." alt="" coords="113,56,169,83"/>
+<area shape="rect" id="node4" href="$class_paddle.html" title="Paddle class inherits Entity pure virtual class and constrols the paddle&#39;s behaviour." alt="" coords="109,107,172,133"/>
+<area shape="rect" id="node5" href="$class_text.html" title="Text class inherits Entity pure virtual class and constrols the game Text&#39;s behaviour." alt="" coords="117,157,164,184"/>
+</map>
