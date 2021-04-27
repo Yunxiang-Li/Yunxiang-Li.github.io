@@ -1,0 +1,6 @@
+<map id="Player::moveRight" name="Player::moveRight">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,132,57"/>
+<area shape="rect" id="node2" href="$class_sprite.html#acd89f4d31b565de8526c6615d751760a" title=" " alt="" coords="180,5,343,32"/>
+<area shape="rect" id="node3" href="$class_player.html#a470a9e8a82d2d7166c586b5044c5a857" title=" " alt="" coords="195,56,327,83"/>
+<area shape="rect" id="node4" href="$class_sprite.html#ad6116e099a11c2c24e8ff987cc06c6e2" title=" " alt="" coords="391,56,520,83"/>
+</map>

@@ -1,0 +1,144 @@
+\hypertarget{class_special_monster}{}\doxysection{Special\+Monster Class Reference}
+\label{class_special_monster}\index{SpecialMonster@{SpecialMonster}}
+
+
+{\ttfamily \#include $<$special\+\_\+monster.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_special_monster_a79b0ac61b6d83f7b378f62071afda1b1}{Special\+Monster}} (bool left\+Spawn)
+\item 
+\mbox{\hyperlink{class_special_monster_affd744ce83b30cd1aef1b0e5ce9b35f4}{$\sim$\+Special\+Monster}} ()
+\item 
+void \mbox{\hyperlink{class_special_monster_aa14635967de34310fe8f3b1ae293ff30}{update}} (float delta\+Time)
+\item 
+SDL\+\_\+\+Rect \mbox{\hyperlink{class_special_monster_a2aba687c6fe8d4384dd1b408b42b07ca}{get\+Size}} () const
+\item 
+bool \mbox{\hyperlink{class_special_monster_a99971c828bcbbb9f9f08eaf034cce771}{is\+Dead}} () const
+\item 
+void \mbox{\hyperlink{class_special_monster_ae17c8816259001b94136d662166998ca}{kill}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class represents the special monster\textquotesingle{}s behaviors (wow factor). 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_special_monster_a79b0ac61b6d83f7b378f62071afda1b1}\label{class_special_monster_a79b0ac61b6d83f7b378f62071afda1b1}} 
+\index{SpecialMonster@{SpecialMonster}!SpecialMonster@{SpecialMonster}}
+\index{SpecialMonster@{SpecialMonster}!SpecialMonster@{SpecialMonster}}
+\doxysubsubsection{\texorpdfstring{SpecialMonster()}{SpecialMonster()}}
+{\footnotesize\ttfamily Special\+Monster\+::\+Special\+Monster (\begin{DoxyParamCaption}\item[{bool}]{left\+Spawn }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+One argument constructor of \mbox{\hyperlink{class_special_monster}{Special\+Monster}} class. 
+\begin{DoxyParams}{Parameters}
+{\em left\+Spawn} & A boolean value to check if this monster is spawned from left side. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_special_monster_a79b0ac61b6d83f7b378f62071afda1b1_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_special_monster_affd744ce83b30cd1aef1b0e5ce9b35f4}\label{class_special_monster_affd744ce83b30cd1aef1b0e5ce9b35f4}} 
+\index{SpecialMonster@{SpecialMonster}!````~SpecialMonster@{$\sim$SpecialMonster}}
+\index{````~SpecialMonster@{$\sim$SpecialMonster}!SpecialMonster@{SpecialMonster}}
+\doxysubsubsection{\texorpdfstring{$\sim$SpecialMonster()}{~SpecialMonster()}}
+{\footnotesize\ttfamily Special\+Monster\+::$\sim$\+Special\+Monster (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default destructor of \mbox{\hyperlink{class_special_monster}{Special\+Monster}} class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_special_monster_a2aba687c6fe8d4384dd1b408b42b07ca}\label{class_special_monster_a2aba687c6fe8d4384dd1b408b42b07ca}} 
+\index{SpecialMonster@{SpecialMonster}!getSize@{getSize}}
+\index{getSize@{getSize}!SpecialMonster@{SpecialMonster}}
+\doxysubsubsection{\texorpdfstring{getSize()}{getSize()}}
+{\footnotesize\ttfamily SDL\+\_\+\+Rect Special\+Monster\+::get\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the player\textquotesingle{}s rectangle size. \begin{DoxyReturn}{Returns}
+A SDL\+\_\+\+Rect object indicates the player\textquotesingle{}s rectangle size. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=325pt]{class_special_monster_a2aba687c6fe8d4384dd1b408b42b07ca_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_special_monster_a2aba687c6fe8d4384dd1b408b42b07ca_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_special_monster_a99971c828bcbbb9f9f08eaf034cce771}\label{class_special_monster_a99971c828bcbbb9f9f08eaf034cce771}} 
+\index{SpecialMonster@{SpecialMonster}!isDead@{isDead}}
+\index{isDead@{isDead}!SpecialMonster@{SpecialMonster}}
+\doxysubsubsection{\texorpdfstring{isDead()}{isDead()}}
+{\footnotesize\ttfamily bool Special\+Monster\+::is\+Dead (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Check if the player is dead or not. \begin{DoxyReturn}{Returns}
+A boolean value indicates whether the player is dead or not. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_special_monster_a99971c828bcbbb9f9f08eaf034cce771_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_special_monster_ae17c8816259001b94136d662166998ca}\label{class_special_monster_ae17c8816259001b94136d662166998ca}} 
+\index{SpecialMonster@{SpecialMonster}!kill@{kill}}
+\index{kill@{kill}!SpecialMonster@{SpecialMonster}}
+\doxysubsubsection{\texorpdfstring{kill()}{kill()}}
+{\footnotesize\ttfamily void Special\+Monster\+::kill (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Kill the monster. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_special_monster_ae17c8816259001b94136d662166998ca_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_special_monster_aa14635967de34310fe8f3b1ae293ff30}\label{class_special_monster_aa14635967de34310fe8f3b1ae293ff30}} 
+\index{SpecialMonster@{SpecialMonster}!update@{update}}
+\index{update@{update}!SpecialMonster@{SpecialMonster}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Special\+Monster\+::update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+Update the monster\textquotesingle{}s condition according to delta time. 
+\begin{DoxyParams}{Parameters}
+{\em delta\+Time} & A float indicates the delta time. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_special_monster_aa14635967de34310fe8f3b1ae293ff30_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_special_monster_aa14635967de34310fe8f3b1ae293ff30_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/special\+\_\+monster.\+hpp\item 
+src/special\+\_\+monster.\+cpp\end{DoxyCompactItemize}

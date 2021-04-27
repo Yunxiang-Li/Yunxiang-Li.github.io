@@ -1,0 +1,147 @@
+\hypertarget{class_s_d_l___components}{}\doxysection{SDL\+\_\+\+Components Class Reference}
+\label{class_s_d_l___components}\index{SDL\_Components@{SDL\_Components}}
+
+
+{\ttfamily \#include $<$sdl\+\_\+components.\+hpp$>$}
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_s_d_l___components_abe9a94b9c239ec51bc1b721e6c8089e7}{init}} ()
+\item 
+static void \mbox{\hyperlink{class_s_d_l___components_a107c270240778f188beaab1ac9c62273}{close}} ()
+\item 
+static SDL\+\_\+\+Window $\ast$const \mbox{\hyperlink{class_s_d_l___components_a907ff1c49cbd01c69322f160954e76f1}{get\+Window}} ()
+\item 
+static SDL\+\_\+\+Renderer $\ast$const \mbox{\hyperlink{class_s_d_l___components_ac70cfeabfe8b8caf5ad58bfd255c906b}{get\+Renderer}} ()
+\item 
+static SDL\+\_\+\+Event $\ast$const \mbox{\hyperlink{class_s_d_l___components_a967659679a4fa503b58ca160877f82cb}{get\+Event}} ()
+\item 
+static void \mbox{\hyperlink{class_s_d_l___components_a59c4090dd5af33434e56b49ff55075e1}{set\+Volume}} (int vol\+Percentage)
+\item 
+static void \mbox{\hyperlink{class_s_d_l___components_aa0349fcb235b6294d03f176feacb0876}{kill\+App}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents some useful functions from SDL. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_s_d_l___components_a107c270240778f188beaab1ac9c62273}\label{class_s_d_l___components_a107c270240778f188beaab1ac9c62273}} 
+\index{SDL\_Components@{SDL\_Components}!close@{close}}
+\index{close@{close}!SDL\_Components@{SDL\_Components}}
+\doxysubsubsection{\texorpdfstring{close()}{close()}}
+{\footnotesize\ttfamily void SDL\+\_\+\+Components\+::close (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Shut down \mbox{\hyperlink{class_s_d_l___components}{SDL\+\_\+\+Components}} class. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{class_s_d_l___components_a107c270240778f188beaab1ac9c62273_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_d_l___components_a967659679a4fa503b58ca160877f82cb}\label{class_s_d_l___components_a967659679a4fa503b58ca160877f82cb}} 
+\index{SDL\_Components@{SDL\_Components}!getEvent@{getEvent}}
+\index{getEvent@{getEvent}!SDL\_Components@{SDL\_Components}}
+\doxysubsubsection{\texorpdfstring{getEvent()}{getEvent()}}
+{\footnotesize\ttfamily SDL\+\_\+\+Event $\ast$const SDL\+\_\+\+Components\+::get\+Event (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the current SDL event. \begin{DoxyReturn}{Returns}
+A pointer to a SDL\+\_\+\+Event object. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_d_l___components_a967659679a4fa503b58ca160877f82cb_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_d_l___components_ac70cfeabfe8b8caf5ad58bfd255c906b}\label{class_s_d_l___components_ac70cfeabfe8b8caf5ad58bfd255c906b}} 
+\index{SDL\_Components@{SDL\_Components}!getRenderer@{getRenderer}}
+\index{getRenderer@{getRenderer}!SDL\_Components@{SDL\_Components}}
+\doxysubsubsection{\texorpdfstring{getRenderer()}{getRenderer()}}
+{\footnotesize\ttfamily SDL\+\_\+\+Renderer $\ast$const SDL\+\_\+\+Components\+::get\+Renderer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the SDL rendered. \begin{DoxyReturn}{Returns}
+A pointer to a SDL\+\_\+\+Renderer object. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_d_l___components_ac70cfeabfe8b8caf5ad58bfd255c906b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_d_l___components_a907ff1c49cbd01c69322f160954e76f1}\label{class_s_d_l___components_a907ff1c49cbd01c69322f160954e76f1}} 
+\index{SDL\_Components@{SDL\_Components}!getWindow@{getWindow}}
+\index{getWindow@{getWindow}!SDL\_Components@{SDL\_Components}}
+\doxysubsubsection{\texorpdfstring{getWindow()}{getWindow()}}
+{\footnotesize\ttfamily SDL\+\_\+\+Window $\ast$const SDL\+\_\+\+Components\+::get\+Window (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the SDL window. \begin{DoxyReturn}{Returns}
+A pointer to a SDL\+\_\+\+Window object. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_s_d_l___components_abe9a94b9c239ec51bc1b721e6c8089e7}\label{class_s_d_l___components_abe9a94b9c239ec51bc1b721e6c8089e7}} 
+\index{SDL\_Components@{SDL\_Components}!init@{init}}
+\index{init@{init}!SDL\_Components@{SDL\_Components}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void SDL\+\_\+\+Components\+::init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Initialize \mbox{\hyperlink{class_s_d_l___components}{SDL\+\_\+\+Components}} class. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_d_l___components_abe9a94b9c239ec51bc1b721e6c8089e7_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=305pt]{class_s_d_l___components_abe9a94b9c239ec51bc1b721e6c8089e7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_d_l___components_aa0349fcb235b6294d03f176feacb0876}\label{class_s_d_l___components_aa0349fcb235b6294d03f176feacb0876}} 
+\index{SDL\_Components@{SDL\_Components}!killApp@{killApp}}
+\index{killApp@{killApp}!SDL\_Components@{SDL\_Components}}
+\doxysubsubsection{\texorpdfstring{killApp()}{killApp()}}
+{\footnotesize\ttfamily void SDL\+\_\+\+Components\+::kill\+App (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+End the game. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_s_d_l___components_aa0349fcb235b6294d03f176feacb0876_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_s_d_l___components_a59c4090dd5af33434e56b49ff55075e1}\label{class_s_d_l___components_a59c4090dd5af33434e56b49ff55075e1}} 
+\index{SDL\_Components@{SDL\_Components}!setVolume@{setVolume}}
+\index{setVolume@{setVolume}!SDL\_Components@{SDL\_Components}}
+\doxysubsubsection{\texorpdfstring{setVolume()}{setVolume()}}
+{\footnotesize\ttfamily void SDL\+\_\+\+Components\+::set\+Volume (\begin{DoxyParamCaption}\item[{int}]{vol\+Percentage }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the game volume. 
+\begin{DoxyParams}{Parameters}
+{\em vol\+Percentage} & An integer indicates the percentage of the game volume. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{class_s_d_l___components_a59c4090dd5af33434e56b49ff55075e1_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/sdl\+\_\+components.\+hpp\item 
+src/sdl\+\_\+components.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,138 @@
+\hypertarget{class_enemy}{}\doxysection{Enemy Class Reference}
+\label{class_enemy}\index{Enemy@{Enemy}}
+
+
+{\ttfamily \#include $<$enemy.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_enemy_a99625fe41e63ba23e8e0500495cb4b0c}{Enemy}} (Enemy\+Types enemy\+Type, \mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ position)
+\item 
+\mbox{\hyperlink{class_enemy_ac0eec4755e28c02688065f9657150ac3}{$\sim$\+Enemy}} ()
+\item 
+void \mbox{\hyperlink{class_enemy_a0b425edca284f72d0684dd130ad6cf84}{update}} (float delta\+Time)
+\item 
+void \mbox{\hyperlink{class_enemy_a2de6bc368101053a7e6d603bcd3f6ec2}{set\+Position}} (\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ const \&pos)
+\item 
+\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ \mbox{\hyperlink{class_enemy_aeb2c35c223030aa6b41df5d8d226a954}{get\+Position}} () const
+\item 
+SDL\+\_\+\+Rect \mbox{\hyperlink{class_enemy_a6f2cbc0e4193431f7003b6f5029dc427}{get\+Size}} () const
+\item 
+Enemy\+Types \mbox{\hyperlink{class_enemy_af8de4ce030779aa99f7bbe6ea4845c24}{get\+Type}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class represent each single enemy\textquotesingle{}s behaviors. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_enemy_a99625fe41e63ba23e8e0500495cb4b0c}\label{class_enemy_a99625fe41e63ba23e8e0500495cb4b0c}} 
+\index{Enemy@{Enemy}!Enemy@{Enemy}}
+\index{Enemy@{Enemy}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{Enemy()}{Enemy()}}
+{\footnotesize\ttfamily Enemy\+::\+Enemy (\begin{DoxyParamCaption}\item[{Enemy\+Types}]{enemy\+Type,  }\item[{\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$}]{position }\end{DoxyParamCaption})}
+
+Two arguments constructor of \mbox{\hyperlink{class_enemy}{Enemy}} class. 
+\begin{DoxyParams}{Parameters}
+{\em enemy\+Type} & An enum indicates one enemy type. \\
+\hline
+{\em position} & A \mbox{\hyperlink{struct_vec2}{Vec2}} of integers indicates the enemy\textquotesingle{}s position. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_enemy_ac0eec4755e28c02688065f9657150ac3}\label{class_enemy_ac0eec4755e28c02688065f9657150ac3}} 
+\index{Enemy@{Enemy}!````~Enemy@{$\sim$Enemy}}
+\index{````~Enemy@{$\sim$Enemy}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{$\sim$Enemy()}{~Enemy()}}
+{\footnotesize\ttfamily Enemy\+::$\sim$\+Enemy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default destructor of \mbox{\hyperlink{class_enemy}{Enemy}} class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_enemy_aeb2c35c223030aa6b41df5d8d226a954}\label{class_enemy_aeb2c35c223030aa6b41df5d8d226a954}} 
+\index{Enemy@{Enemy}!getPosition@{getPosition}}
+\index{getPosition@{getPosition}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{getPosition()}{getPosition()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ Enemy\+::get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the enemy\textquotesingle{}s current position. \begin{DoxyReturn}{Returns}
+A \mbox{\hyperlink{struct_vec2}{Vec2}} of integers indicates the enemy\textquotesingle{}s current position. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_enemy_a6f2cbc0e4193431f7003b6f5029dc427}\label{class_enemy_a6f2cbc0e4193431f7003b6f5029dc427}} 
+\index{Enemy@{Enemy}!getSize@{getSize}}
+\index{getSize@{getSize}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{getSize()}{getSize()}}
+{\footnotesize\ttfamily SDL\+\_\+\+Rect Enemy\+::get\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the enemy\textquotesingle{}s rectangle size. \begin{DoxyReturn}{Returns}
+A SDL\+\_\+\+Rect indicates the enemy\textquotesingle{}s rectangle size. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_enemy_a6f2cbc0e4193431f7003b6f5029dc427_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_enemy_af8de4ce030779aa99f7bbe6ea4845c24}\label{class_enemy_af8de4ce030779aa99f7bbe6ea4845c24}} 
+\index{Enemy@{Enemy}!getType@{getType}}
+\index{getType@{getType}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{getType()}{getType()}}
+{\footnotesize\ttfamily Enemy\+Types Enemy\+::get\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the enemy\textquotesingle{}s type. \begin{DoxyReturn}{Returns}
+An enum indicates 4 different enemy types. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_enemy_a2de6bc368101053a7e6d603bcd3f6ec2}\label{class_enemy_a2de6bc368101053a7e6d603bcd3f6ec2}} 
+\index{Enemy@{Enemy}!setPosition@{setPosition}}
+\index{setPosition@{setPosition}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{setPosition()}{setPosition()}}
+{\footnotesize\ttfamily void Enemy\+::set\+Position (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ const \&}]{pos }\end{DoxyParamCaption})}
+
+Set the enemy\textquotesingle{}s position. 
+\begin{DoxyParams}{Parameters}
+{\em pos} & A \mbox{\hyperlink{struct_vec2}{Vec2}} of integers indicates the enemy\textquotesingle{}s position to be set. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_enemy_a2de6bc368101053a7e6d603bcd3f6ec2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_enemy_a0b425edca284f72d0684dd130ad6cf84}\label{class_enemy_a0b425edca284f72d0684dd130ad6cf84}} 
+\index{Enemy@{Enemy}!update@{update}}
+\index{update@{update}!Enemy@{Enemy}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Enemy\+::update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+Updates the enemy\textquotesingle{}s position according to delta time. 
+\begin{DoxyParams}{Parameters}
+{\em delta\+Time} & a float indicates delta time. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_enemy_a0b425edca284f72d0684dd130ad6cf84_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_enemy_a0b425edca284f72d0684dd130ad6cf84_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/enemy.\+hpp\item 
+src/enemy.\+cpp\end{DoxyCompactItemize}

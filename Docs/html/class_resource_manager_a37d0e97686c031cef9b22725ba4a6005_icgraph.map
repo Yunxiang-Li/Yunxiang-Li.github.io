@@ -1,4 +1,0 @@
-<map id="ResourceManager::getInstance" name="ResourceManager::getInstance">
-<area shape="rect" id="node1" title="Singleton pattern implementation. If the only instance of ResourceManager is not created then created..." alt="" coords="136,5,339,32"/>
-<area shape="rect" id="node2" href="$class_game.html#ab19596de871e7ce3ce5effc888c2a30b" title="Initialize the whole game." alt="" coords="5,5,88,32"/>
-</map>

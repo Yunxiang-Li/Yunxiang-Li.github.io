@@ -1,0 +1,330 @@
+\hypertarget{class_game_utilities}{}\doxysection{Game\+Utilities Class Reference}
+\label{class_game_utilities}\index{GameUtilities@{GameUtilities}}
+
+
+{\ttfamily \#include $<$game\+\_\+utilities.\+hpp$>$}
+
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_game_utilities_ae75325ecca9590a664f44ef9ec1ff5d8}{init}} ()
+\item 
+static void \mbox{\hyperlink{class_game_utilities_ad859ba3ac877b4f6210864d9c632e78d}{close}} ()
+\item 
+static void \mbox{\hyperlink{class_game_utilities_abf7df43f1aa21a7d01a37728bdbe7a6c}{render\+Text}} (SDL\+\_\+\+Texture $\ast$texture, SDL\+\_\+\+Rect rect, \mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ offset)
+\item 
+static TTF\+\_\+\+Font $\ast$const \mbox{\hyperlink{class_game_utilities_af1480014058b1f7ec368f342808c4792}{get\+Font}} ()
+\item 
+static int \mbox{\hyperlink{class_game_utilities_a63fffee079d6a5dc7775a28edf086dfa}{get\+Score}} ()
+\item 
+static void \mbox{\hyperlink{class_game_utilities_ab24c5ba200516fd2c9e60081d40092e4}{set\+Score}} (int score)
+\item 
+static int \mbox{\hyperlink{class_game_utilities_ad80490f5bdb18a3a72eff7decdd3a5d8}{get\+Random\+Number}} (int start\+Range, int end\+Range)
+\item 
+static int \mbox{\hyperlink{class_game_utilities_aa61090ef6f7c7a2ca552542103432066}{get\+Str\+Len}} (const char $\ast$str)
+\item 
+static bool \mbox{\hyperlink{class_game_utilities_ad43998ed9acbd70688f3813c36802454}{are\+Colliding}} (SDL\+\_\+\+Rect one, SDL\+\_\+\+Rect two)
+\item 
+static void \mbox{\hyperlink{class_game_utilities_a8bb6e054fcbbd61c7691477b0934ea7e}{update\+High\+Scores}} ()
+\item 
+static int $\ast$ \mbox{\hyperlink{class_game_utilities_a9410b4765af86f9652d9e1692c1cc5ba}{get\+Highscores}} ()
+\item 
+{\footnotesize template$<$typename T $>$ }\\static void \mbox{\hyperlink{class_game_utilities_a5c514ce6c44c10b1427ad43596d6f141}{selection\+Sort}} (T $\ast$arr, int size)
+\item 
+{\footnotesize template$<$typename T $>$ }\\static void \mbox{\hyperlink{class_game_utilities_a8f717f8cd622fa93bae30ecfb1c4acb2}{swap}} (T \&one, T \&two)
+\item 
+static void \mbox{\hyperlink{class_game_utilities_ab8eeb265013e5e5794871faffccce7b6}{print\+Score}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents some utility functions used in rendering the game. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_game_utilities_ad43998ed9acbd70688f3813c36802454}\label{class_game_utilities_ad43998ed9acbd70688f3813c36802454}} 
+\index{GameUtilities@{GameUtilities}!areColliding@{areColliding}}
+\index{areColliding@{areColliding}!GameUtilities@{GameUtilities}}
+\doxysubsubsection{\texorpdfstring{areColliding()}{areColliding()}}
+{\footnotesize\ttfamily bool Game\+Utilities\+::are\+Colliding (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Rect}]{one,  }\item[{SDL\+\_\+\+Rect}]{two }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Check if two SDL\+\_\+\+Rect objects intersect or not. 
+\begin{DoxyParams}{Parameters}
+{\em one} & A SDL\+\_\+\+Rect object. \\
+\hline
+{\em two} & Another SDL\+\_\+\+Rect object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean value indicates whether two SDL\+\_\+\+Rect objects intersect or not. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_utilities_ad43998ed9acbd70688f3813c36802454_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_game_utilities_ad859ba3ac877b4f6210864d9c632e78d}\label{class_game_utilities_ad859ba3ac877b4f6210864d9c632e78d}} 
+\index{GameUtilities@{GameUtilities}!close@{close}}
+\index{close@{close}!GameUtilities@{GameUtilities}}
+\doxysubsubsection{\texorpdfstring{close()}{close()}}
+{\footnotesize\ttfamily void Game\+Utilities\+::close (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Close all utility functions Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=301pt]{class_game_utilities_ad859ba3ac877b4f6210864d9c632e78d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_game_utilities_af1480014058b1f7ec368f342808c4792}\label{class_game_utilities_af1480014058b1f7ec368f342808c4792}} 
+\index{GameUtilities@{GameUtilities}!getFont@{getFont}}
+\index{getFont@{getFont}!GameUtilities@{GameUtilities}}
+\doxysubsubsection{\texorpdfstring{getFont()}{getFont()}}
+{\footnotesize\ttfamily TTF\+\_\+\+Font $\ast$const Game\+Utilities\+::get\+Font (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the current font. \begin{DoxyReturn}{Returns}
+A pointer to a TTF\+\_\+\+Font object indicates the font. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_utilities_af1480014058b1f7ec368f342808c4792_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_game_utilities_a9410b4765af86f9652d9e1692c1cc5ba}\label{class_game_utilities_a9410b4765af86f9652d9e1692c1cc5ba}} 
+\index{GameUtilities@{GameUtilities}!getHighscores@{getHighscores}}
+\index{getHighscores@{getHighscores}!GameUtilities@{GameUtilities}}
+\doxysubsubsection{\texorpdfstring{getHighscores()}{getHighscores()}}
+{\footnotesize\ttfamily int $\ast$ Game\+Utilities\+::get\+Highscores (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get the high scores of the game. \begin{DoxyReturn}{Returns}
+A pointer to an integer indicates the high scores of the game. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_utilities_a9410b4765af86f9652d9e1692c1cc5ba_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_game_utilities_ad80490f5bdb18a3a72eff7decdd3a5d8}\label{class_game_utilities_ad80490f5bdb18a3a72eff7decdd3a5d8}} 
+\index{GameUtilities@{GameUtilities}!getRandomNumber@{getRandomNumber}}
+\index{getRandomNumber@{getRandomNumber}!GameUtilities@{GameUtilities}}
+\doxysubsubsection{\texorpdfstring{getRandomNumber()}{getRandomNumber()}}
+{\footnotesize\ttfamily int Game\+Utilities\+::get\+Random\+Number (\begin{DoxyParamCaption}\item[{int}]{start\+Range,  }\item[{int}]{end\+Range }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get a random number between two bounds. 
+\begin{DoxyParams}{Parameters}
+{\em start\+Range} & An integer indicates the lower bound. \\
+\hline
+{\em end\+Range} & An integer indicates the upper bound. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An integer indicates the random number between two bounds. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_utilities_ad80490f5bdb18a3a72eff7decdd3a5d8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_game_utilities_a63fffee079d6a5dc7775a28edf086dfa}\label{class_game_utilities_a63fffee079d6a5dc7775a28edf086dfa}} 
+\index{GameUtilities@{GameUtilities}!getScore@{getScore}}
+\index{getScore@{getScore}!GameUtilities@{GameUtilities}}
+\doxysubsubsection{\texorpdfstring{getScore()}{getScore()}}
+{\footnotesize\ttfamily int Game\+Utilities\+::get\+Score (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get current game score. \begin{DoxyReturn}{Returns}
+An integer indicates the current game score. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_utilities_a63fffee079d6a5dc7775a28edf086dfa_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_game_utilities_aa61090ef6f7c7a2ca552542103432066}\label{class_game_utilities_aa61090ef6f7c7a2ca552542103432066}} 
+\index{GameUtilities@{GameUtilities}!getStrLen@{getStrLen}}
+\index{getStrLen@{getStrLen}!GameUtilities@{GameUtilities}}
+\doxysubsubsection{\texorpdfstring{getStrLen()}{getStrLen()}}
+{\footnotesize\ttfamily int Game\+Utilities\+::get\+Str\+Len (\begin{DoxyParamCaption}\item[{const char $\ast$}]{str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Get a certain string\textquotesingle{}s length. 
+\begin{DoxyParams}{Parameters}
+{\em str} & A const pointer to a char array indicates the input string. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+An integer indicates the input string\textquotesingle{}s length. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_utilities_aa61090ef6f7c7a2ca552542103432066_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_game_utilities_ae75325ecca9590a664f44ef9ec1ff5d8}\label{class_game_utilities_ae75325ecca9590a664f44ef9ec1ff5d8}} 
+\index{GameUtilities@{GameUtilities}!init@{init}}
+\index{init@{init}!GameUtilities@{GameUtilities}}
+\doxysubsubsection{\texorpdfstring{init()}{init()}}
+{\footnotesize\ttfamily void Game\+Utilities\+::init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Initialize all utility functions. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=285pt]{class_game_utilities_ae75325ecca9590a664f44ef9ec1ff5d8_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_game_utilities_ab8eeb265013e5e5794871faffccce7b6}\label{class_game_utilities_ab8eeb265013e5e5794871faffccce7b6}} 
+\index{GameUtilities@{GameUtilities}!printScore@{printScore}}
+\index{printScore@{printScore}!GameUtilities@{GameUtilities}}
+\doxysubsubsection{\texorpdfstring{printScore()}{printScore()}}
+{\footnotesize\ttfamily static void Game\+Utilities\+::print\+Score (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+Temp method for debugging in main\+\_\+menu\+\_\+scene Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_utilities_ab8eeb265013e5e5794871faffccce7b6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_game_utilities_abf7df43f1aa21a7d01a37728bdbe7a6c}\label{class_game_utilities_abf7df43f1aa21a7d01a37728bdbe7a6c}} 
+\index{GameUtilities@{GameUtilities}!renderText@{renderText}}
+\index{renderText@{renderText}!GameUtilities@{GameUtilities}}
+\doxysubsubsection{\texorpdfstring{renderText()}{renderText()}}
+{\footnotesize\ttfamily void Game\+Utilities\+::render\+Text (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Texture $\ast$}]{texture,  }\item[{SDL\+\_\+\+Rect}]{rect,  }\item[{\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$}]{offset }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Render all texts in the game 
+\begin{DoxyParams}{Parameters}
+{\em texture} & A pointer to a SDL\+\_\+\+Texture object indicates a text\textquotesingle{}s texture. \\
+\hline
+{\em rect} & A SDL\+\_\+\+Rect object indicates the text\textquotesingle{}s rectangle size. \\
+\hline
+{\em offset} & A \mbox{\hyperlink{struct_vec2}{Vec2}} of integers indicates the text\textquotesingle{}s offsets. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_utilities_abf7df43f1aa21a7d01a37728bdbe7a6c_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_utilities_abf7df43f1aa21a7d01a37728bdbe7a6c_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_game_utilities_a5c514ce6c44c10b1427ad43596d6f141}\label{class_game_utilities_a5c514ce6c44c10b1427ad43596d6f141}} 
+\index{GameUtilities@{GameUtilities}!selectionSort@{selectionSort}}
+\index{selectionSort@{selectionSort}!GameUtilities@{GameUtilities}}
+\doxysubsubsection{\texorpdfstring{selectionSort()}{selectionSort()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void Game\+Utilities\+::selection\+Sort (\begin{DoxyParamCaption}\item[{T $\ast$}]{arr,  }\item[{int}]{size }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+A template selection sort. 
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & A type to be sorted. \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em arr} & A pointer to the template array. \\
+\hline
+{\em size} & An integer indicates the template array\textquotesingle{}s size. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_utilities_a5c514ce6c44c10b1427ad43596d6f141_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_game_utilities_ab24c5ba200516fd2c9e60081d40092e4}\label{class_game_utilities_ab24c5ba200516fd2c9e60081d40092e4}} 
+\index{GameUtilities@{GameUtilities}!setScore@{setScore}}
+\index{setScore@{setScore}!GameUtilities@{GameUtilities}}
+\doxysubsubsection{\texorpdfstring{setScore()}{setScore()}}
+{\footnotesize\ttfamily void Game\+Utilities\+::set\+Score (\begin{DoxyParamCaption}\item[{int}]{score }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Set the game score. 
+\begin{DoxyParams}{Parameters}
+{\em score} & An integer indicates the game score to be set. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_utilities_ab24c5ba200516fd2c9e60081d40092e4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_game_utilities_a8f717f8cd622fa93bae30ecfb1c4acb2}\label{class_game_utilities_a8f717f8cd622fa93bae30ecfb1c4acb2}} 
+\index{GameUtilities@{GameUtilities}!swap@{swap}}
+\index{swap@{swap}!GameUtilities@{GameUtilities}}
+\doxysubsubsection{\texorpdfstring{swap()}{swap()}}
+{\footnotesize\ttfamily template$<$typename T $>$ \\
+void Game\+Utilities\+::swap (\begin{DoxyParamCaption}\item[{T \&}]{one,  }\item[{T \&}]{two }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+A template swap. 
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & A type to be sorted. \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em one} & First template object \\
+\hline
+{\em two} & Second template object \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_utilities_a8f717f8cd622fa93bae30ecfb1c4acb2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_game_utilities_a8bb6e054fcbbd61c7691477b0934ea7e}\label{class_game_utilities_a8bb6e054fcbbd61c7691477b0934ea7e}} 
+\index{GameUtilities@{GameUtilities}!updateHighScores@{updateHighScores}}
+\index{updateHighScores@{updateHighScores}!GameUtilities@{GameUtilities}}
+\doxysubsubsection{\texorpdfstring{updateHighScores()}{updateHighScores()}}
+{\footnotesize\ttfamily void Game\+Utilities\+::update\+High\+Scores (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+Update the high scores of the game. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_utilities_a8bb6e054fcbbd61c7691477b0934ea7e_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/game\+\_\+utilities.\+hpp\item 
+src/game\+\_\+utilities.\+cpp\end{DoxyCompactItemize}

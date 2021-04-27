@@ -1,0 +1,10 @@
+<map id="PlayScene::handleDeadPlayer" name="PlayScene::handleDeadPlayer">
+<area shape="rect" id="node1" title=" " alt="" coords="5,132,204,159"/>
+<area shape="rect" id="node2" href="$class_play_scene.html#a34e74ac2be502fa32e1ef0558d8e2c2f" title=" " alt="" coords="252,5,436,32"/>
+<area shape="rect" id="node3" href="$class_label.html#a8a2698f3beff0d54bd5ea721cca8c388" title=" " alt="" coords="287,56,401,83"/>
+<area shape="rect" id="node4" href="$class_label.html#ae23e7594687dcefe9fceff58110caf4f" title=" " alt="" coords="291,107,397,133"/>
+<area shape="rect" id="node5" href="$class_label.html#ac6bb851ea63be76474897e64455c1584" title=" " alt="" coords="283,157,405,184"/>
+<area shape="rect" id="node6" href="$class_game_utilities.html#abf7df43f1aa21a7d01a37728bdbe7a6c" title=" " alt="" coords="259,208,429,235"/>
+<area shape="rect" id="node8" href="$class_game_utilities.html#a8bb6e054fcbbd61c7691477b0934ea7e" title=" " alt="" coords="257,259,431,301"/>
+<area shape="rect" id="node7" href="$class_s_d_l___components.html#ac70cfeabfe8b8caf5ad58bfd255c906b" title=" " alt="" coords="484,208,689,235"/>
+</map>

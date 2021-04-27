@@ -1,0 +1,208 @@
+\hypertarget{class_u_i}{}\doxysection{UI Class Reference}
+\label{class_u_i}\index{UI@{UI}}
+
+
+{\ttfamily \#include $<$ui.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_u_i_ae41e0882936d69b4ff8584ab53ce4560}{UI}} (bool multiplayer=false)
+\item 
+\mbox{\hyperlink{class_u_i_a1b23d0c64c7cbb3d143d90ec532a7ccd}{$\sim$\+UI}} ()
+\item 
+void \mbox{\hyperlink{class_u_i_a782aaf2c971fef43f3955341ceada5ba}{update\+Score\+Board}} (int new\+Score)
+\item 
+void \mbox{\hyperlink{class_u_i_a1c1fb3b329b04ec68bd85ee97810e5f1}{draw\+Score\+Board}} ()
+\item 
+void \mbox{\hyperlink{class_u_i_af03006111b2e1774502d2852cd83baf6}{draw\+Health\+Bars}} ()
+\item 
+void \mbox{\hyperlink{class_u_i_af79b9c48c223a4813c3e6967df54934a}{reduce\+Health\+Bar\+One}} ()
+\item 
+void \mbox{\hyperlink{class_u_i_a62c7d48985f0054b5346c488c87479cf}{reduce\+Health\+Bar\+Two}} ()
+\item 
+int \mbox{\hyperlink{class_u_i_ad7047df67e9c7a3492302dc5f63d20b0}{get\+Player\+One\+Lives}} ()
+\item 
+int \mbox{\hyperlink{class_u_i_ae7be34f9fc5b8458ea64c6edfc84c4ce}{get\+Player\+Two\+Lives}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class represents all \mbox{\hyperlink{class_u_i}{UI}} behaviors of the game. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_u_i_ae41e0882936d69b4ff8584ab53ce4560}\label{class_u_i_ae41e0882936d69b4ff8584ab53ce4560}} 
+\index{UI@{UI}!UI@{UI}}
+\index{UI@{UI}!UI@{UI}}
+\doxysubsubsection{\texorpdfstring{UI()}{UI()}}
+{\footnotesize\ttfamily UI\+::\+UI (\begin{DoxyParamCaption}\item[{bool}]{multiplayer = {\ttfamily false} }\end{DoxyParamCaption})}
+
+One argument constructor of \mbox{\hyperlink{class_u_i}{UI}} class. 
+\begin{DoxyParams}{Parameters}
+{\em multiplayer} & A boolean value check if there is a second player. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_u_i_a1b23d0c64c7cbb3d143d90ec532a7ccd}\label{class_u_i_a1b23d0c64c7cbb3d143d90ec532a7ccd}} 
+\index{UI@{UI}!````~UI@{$\sim$UI}}
+\index{````~UI@{$\sim$UI}!UI@{UI}}
+\doxysubsubsection{\texorpdfstring{$\sim$UI()}{~UI()}}
+{\footnotesize\ttfamily UI\+::$\sim$\+UI (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Destructor of \mbox{\hyperlink{class_u_i}{UI}} class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_u_i_af03006111b2e1774502d2852cd83baf6}\label{class_u_i_af03006111b2e1774502d2852cd83baf6}} 
+\index{UI@{UI}!drawHealthBars@{drawHealthBars}}
+\index{drawHealthBars@{drawHealthBars}!UI@{UI}}
+\doxysubsubsection{\texorpdfstring{drawHealthBars()}{drawHealthBars()}}
+{\footnotesize\ttfamily void UI\+::draw\+Health\+Bars (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Render player\textquotesingle{}s current health bar. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_u_i_af03006111b2e1774502d2852cd83baf6_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_u_i_af03006111b2e1774502d2852cd83baf6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_u_i_a1c1fb3b329b04ec68bd85ee97810e5f1}\label{class_u_i_a1c1fb3b329b04ec68bd85ee97810e5f1}} 
+\index{UI@{UI}!drawScoreBoard@{drawScoreBoard}}
+\index{drawScoreBoard@{drawScoreBoard}!UI@{UI}}
+\doxysubsubsection{\texorpdfstring{drawScoreBoard()}{drawScoreBoard()}}
+{\footnotesize\ttfamily void UI\+::draw\+Score\+Board (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Render the player\textquotesingle{}s current score. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_u_i_a1c1fb3b329b04ec68bd85ee97810e5f1_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_u_i_a1c1fb3b329b04ec68bd85ee97810e5f1_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_u_i_ad7047df67e9c7a3492302dc5f63d20b0}\label{class_u_i_ad7047df67e9c7a3492302dc5f63d20b0}} 
+\index{UI@{UI}!getPlayerOneLives@{getPlayerOneLives}}
+\index{getPlayerOneLives@{getPlayerOneLives}!UI@{UI}}
+\doxysubsubsection{\texorpdfstring{getPlayerOneLives()}{getPlayerOneLives()}}
+{\footnotesize\ttfamily int UI\+::get\+Player\+One\+Lives (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get first player\textquotesingle{}s current lives. \begin{DoxyReturn}{Returns}
+An integer indicates first player\textquotesingle{}s current lives. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{class_u_i_ad7047df67e9c7a3492302dc5f63d20b0_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_u_i_ad7047df67e9c7a3492302dc5f63d20b0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_u_i_ae7be34f9fc5b8458ea64c6edfc84c4ce}\label{class_u_i_ae7be34f9fc5b8458ea64c6edfc84c4ce}} 
+\index{UI@{UI}!getPlayerTwoLives@{getPlayerTwoLives}}
+\index{getPlayerTwoLives@{getPlayerTwoLives}!UI@{UI}}
+\doxysubsubsection{\texorpdfstring{getPlayerTwoLives()}{getPlayerTwoLives()}}
+{\footnotesize\ttfamily int UI\+::get\+Player\+Two\+Lives (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get second player\textquotesingle{}s current lives. \begin{DoxyReturn}{Returns}
+An integer indicates second player\textquotesingle{}s current lives. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=329pt]{class_u_i_ae7be34f9fc5b8458ea64c6edfc84c4ce_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_u_i_af79b9c48c223a4813c3e6967df54934a}\label{class_u_i_af79b9c48c223a4813c3e6967df54934a}} 
+\index{UI@{UI}!reduceHealthBarOne@{reduceHealthBarOne}}
+\index{reduceHealthBarOne@{reduceHealthBarOne}!UI@{UI}}
+\doxysubsubsection{\texorpdfstring{reduceHealthBarOne()}{reduceHealthBarOne()}}
+{\footnotesize\ttfamily void UI\+::reduce\+Health\+Bar\+One (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Reduce player\textquotesingle{}s health bar by one. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{class_u_i_af79b9c48c223a4813c3e6967df54934a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_u_i_af79b9c48c223a4813c3e6967df54934a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_u_i_a62c7d48985f0054b5346c488c87479cf}\label{class_u_i_a62c7d48985f0054b5346c488c87479cf}} 
+\index{UI@{UI}!reduceHealthBarTwo@{reduceHealthBarTwo}}
+\index{reduceHealthBarTwo@{reduceHealthBarTwo}!UI@{UI}}
+\doxysubsubsection{\texorpdfstring{reduceHealthBarTwo()}{reduceHealthBarTwo()}}
+{\footnotesize\ttfamily void UI\+::reduce\+Health\+Bar\+Two (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Reduce player\textquotesingle{}s health bar by two. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=332pt]{class_u_i_a62c7d48985f0054b5346c488c87479cf_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_u_i_a782aaf2c971fef43f3955341ceada5ba}\label{class_u_i_a782aaf2c971fef43f3955341ceada5ba}} 
+\index{UI@{UI}!updateScoreBoard@{updateScoreBoard}}
+\index{updateScoreBoard@{updateScoreBoard}!UI@{UI}}
+\doxysubsubsection{\texorpdfstring{updateScoreBoard()}{updateScoreBoard()}}
+{\footnotesize\ttfamily void UI\+::update\+Score\+Board (\begin{DoxyParamCaption}\item[{int}]{new\+Score }\end{DoxyParamCaption})}
+
+Update the player\textquotesingle{}s current score. 
+\begin{DoxyParams}{Parameters}
+{\em new\+Score} & An integer indicates player\textquotesingle{}s new score. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_u_i_a782aaf2c971fef43f3955341ceada5ba_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_u_i_a782aaf2c971fef43f3955341ceada5ba_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/ui.\+hpp\item 
+src/ui.\+cpp\end{DoxyCompactItemize}

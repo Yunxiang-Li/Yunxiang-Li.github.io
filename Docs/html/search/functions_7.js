@@ -1,5 +1,10 @@
 var searchData=
 [
-  ['render_62',['Render',['../class_ball.html#aad08ffaea46f61b5ba55b35caf3f8085',1,'Ball::Render()'],['../class_board.html#adf586f328ba9c106ec171543bb2745cf',1,'Board::Render()'],['../class_entity.html#a2405d54f7af9a48442c45b9c091b7ec1',1,'Entity::Render()'],['../class_paddle.html#a028df821bb4ecd16c59cadb55e5f89ba',1,'Paddle::Render()'],['../class_text.html#a4dd3d430599d8216537c84c95dce8dcb',1,'Text::Render()']]],
-  ['run_63',['Run',['../class_game.html#a96341ca5b54d90adc3ecb3bf0bcd2312',1,'Game']]]
+  ['init_225',['init',['../class_game_utilities.html#ae75325ecca9590a664f44ef9ec1ff5d8',1,'GameUtilities::init()'],['../class_s_d_l___components.html#abe9a94b9c239ec51bc1b721e6c8089e7',1,'SDL_Components::init()']]],
+  ['isabulletcolliding_226',['isABulletColliding',['../class_enemy_horde.html#a89751feca67ddc965e23039a82945354',1,'EnemyHorde']]],
+  ['isalive_227',['isAlive',['../class_player.html#a3966588630ad0a127c9250f985865392',1,'Player']]],
+  ['iscollidingwithplayer_228',['isCollidingWithPlayer',['../class_enemy_horde.html#af156761ec1f1ee320076674b9ada9538',1,'EnemyHorde']]],
+  ['isdead_229',['isDead',['../class_special_monster.html#a99971c828bcbbb9f9f08eaf034cce771',1,'SpecialMonster']]],
+  ['isdestroyed_230',['isDestroyed',['../class_bullet.html#a3a629efb3b36534422c4887c6934ee92',1,'Bullet']]],
+  ['isempty_231',['isEmpty',['../class_enemy_horde.html#a79739faeabf875c9e6a04c694ce881f4',1,'EnemyHorde']]]
 ];

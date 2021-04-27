@@ -1,0 +1,177 @@
+\hypertarget{struct_vec2}{}\doxysection{Vec2$<$ T $>$ Struct Template Reference}
+\label{struct_vec2}\index{Vec2$<$ T $>$@{Vec2$<$ T $>$}}
+
+
+{\ttfamily \#include $<$vec2.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{struct_vec2_a0d51ef92a3baedc006bca6a702cefc65}{Vec2}} ()
+\item 
+\mbox{\hyperlink{struct_vec2_af77a623c6f1b767517505a99cd24dd45}{Vec2}} (T initX, T initY)
+\item 
+\mbox{\hyperlink{struct_vec2_acf1abe39735ca18a7c588c6b9b804aee}{Vec2}} (const \mbox{\hyperlink{struct_vec2}{Vec2}} \&other)
+\item 
+bool \mbox{\hyperlink{struct_vec2_a5863e18c106914f43d374be651b5fdb7}{operator==}} (const \mbox{\hyperlink{struct_vec2}{Vec2}} \&other\+Vec)
+\item 
+\mbox{\hyperlink{struct_vec2}{Vec2}} \mbox{\hyperlink{struct_vec2_a9aa941e6b74536eeef5c39e77fcc91eb}{operator+}} (const \mbox{\hyperlink{struct_vec2}{Vec2}} \&vec2) const
+\item 
+\mbox{\hyperlink{struct_vec2}{Vec2}} \mbox{\hyperlink{struct_vec2_a6973dae2d06d68d724eb026e8de7ec75}{operator-\/}} (const \mbox{\hyperlink{struct_vec2}{Vec2}} \&vec2) const
+\item 
+\mbox{\hyperlink{struct_vec2}{Vec2}} \& \mbox{\hyperlink{struct_vec2_a5c50dae78841f6b33431c74850616c4d}{operator=}} (const \mbox{\hyperlink{struct_vec2}{Vec2}} \&vec2)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{struct_vec2_a59ae3178d04fa88b8de00a22c1e003c0}\label{struct_vec2_a59ae3178d04fa88b8de00a22c1e003c0}} 
+int {\bfseries x}
+\item 
+\mbox{\Hypertarget{struct_vec2_a57017bde98aaf430192299d204ead2f5}\label{struct_vec2_a57017bde98aaf430192299d204ead2f5}} 
+int {\bfseries y}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\subsubsection*{template$<$class T$>$\newline
+struct Vec2$<$ T $>$}
+
+My custom tiny math library. 
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & A template type. \\
+\hline
+\end{DoxyTemplParams}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{struct_vec2_a0d51ef92a3baedc006bca6a702cefc65}\label{struct_vec2_a0d51ef92a3baedc006bca6a702cefc65}} 
+\index{Vec2$<$ T $>$@{Vec2$<$ T $>$}!Vec2@{Vec2}}
+\index{Vec2@{Vec2}!Vec2$<$ T $>$@{Vec2$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Vec2()}{Vec2()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ T $>$\+::\mbox{\hyperlink{struct_vec2}{Vec2}} (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Default constructor of \mbox{\hyperlink{struct_vec2}{Vec2}} class. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=270pt]{struct_vec2_a0d51ef92a3baedc006bca6a702cefc65_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{struct_vec2_af77a623c6f1b767517505a99cd24dd45}\label{struct_vec2_af77a623c6f1b767517505a99cd24dd45}} 
+\index{Vec2$<$ T $>$@{Vec2$<$ T $>$}!Vec2@{Vec2}}
+\index{Vec2@{Vec2}!Vec2$<$ T $>$@{Vec2$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Vec2()}{Vec2()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ T $>$\+::\mbox{\hyperlink{struct_vec2}{Vec2}} (\begin{DoxyParamCaption}\item[{T}]{initX,  }\item[{T}]{initY }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Two arguments constructor of \mbox{\hyperlink{struct_vec2}{Vec2}} class. 
+\begin{DoxyParams}{Parameters}
+{\em initX} & A T type indicates x\textquotesingle{}s initialized value. \\
+\hline
+{\em initY} & A T type indicates y\textquotesingle{}s initialized value. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{struct_vec2_acf1abe39735ca18a7c588c6b9b804aee}\label{struct_vec2_acf1abe39735ca18a7c588c6b9b804aee}} 
+\index{Vec2$<$ T $>$@{Vec2$<$ T $>$}!Vec2@{Vec2}}
+\index{Vec2@{Vec2}!Vec2$<$ T $>$@{Vec2$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Vec2()}{Vec2()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ T $>$\+::\mbox{\hyperlink{struct_vec2}{Vec2}} (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_vec2}{Vec2}}$<$ T $>$ \&}]{other }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Copy constructor of \mbox{\hyperlink{struct_vec2}{Vec2}} class. 
+\begin{DoxyParams}{Parameters}
+{\em other} & A const reference of a \mbox{\hyperlink{struct_vec2}{Vec2}} object indicates another \mbox{\hyperlink{struct_vec2}{Vec2}} object. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{struct_vec2_a9aa941e6b74536eeef5c39e77fcc91eb}\label{struct_vec2_a9aa941e6b74536eeef5c39e77fcc91eb}} 
+\index{Vec2$<$ T $>$@{Vec2$<$ T $>$}!operator+@{operator+}}
+\index{operator+@{operator+}!Vec2$<$ T $>$@{Vec2$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator+()}{operator+()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{struct_vec2}{Vec2}} \mbox{\hyperlink{struct_vec2}{Vec2}}$<$ T $>$\+::operator+ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_vec2}{Vec2}}$<$ T $>$ \&}]{vec2 }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyItemize}
+\item operator overload. 
+\begin{DoxyParams}{Parameters}
+{\em vec2} & other\+Vec A const reference of a \mbox{\hyperlink{struct_vec2}{Vec2}} object indicates another \mbox{\hyperlink{struct_vec2}{Vec2}} object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A \mbox{\hyperlink{struct_vec2}{Vec2}} object indicates the sum of 2 \mbox{\hyperlink{struct_vec2}{Vec2}} objects. 
+\end{DoxyReturn}
+
+\end{DoxyItemize}Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=270pt]{struct_vec2_a9aa941e6b74536eeef5c39e77fcc91eb_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{struct_vec2_a6973dae2d06d68d724eb026e8de7ec75}\label{struct_vec2_a6973dae2d06d68d724eb026e8de7ec75}} 
+\index{Vec2$<$ T $>$@{Vec2$<$ T $>$}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!Vec2$<$ T $>$@{Vec2$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator-\/()}{operator-()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{struct_vec2}{Vec2}} \mbox{\hyperlink{struct_vec2}{Vec2}}$<$ T $>$\+::operator-\/ (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_vec2}{Vec2}}$<$ T $>$ \&}]{vec2 }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+\begin{DoxyItemize}
+\item operator overload. 
+\begin{DoxyParams}{Parameters}
+{\em vec2} & A const reference of a \mbox{\hyperlink{struct_vec2}{Vec2}} object indicates another \mbox{\hyperlink{struct_vec2}{Vec2}} object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A \mbox{\hyperlink{struct_vec2}{Vec2}} object indicates the subtraction of 2 \mbox{\hyperlink{struct_vec2}{Vec2}} objects. 
+\end{DoxyReturn}
+
+\end{DoxyItemize}Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=267pt]{struct_vec2_a6973dae2d06d68d724eb026e8de7ec75_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{struct_vec2_a5c50dae78841f6b33431c74850616c4d}\label{struct_vec2_a5c50dae78841f6b33431c74850616c4d}} 
+\index{Vec2$<$ T $>$@{Vec2$<$ T $>$}!operator=@{operator=}}
+\index{operator=@{operator=}!Vec2$<$ T $>$@{Vec2$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+\mbox{\hyperlink{struct_vec2}{Vec2}}\& \mbox{\hyperlink{struct_vec2}{Vec2}}$<$ T $>$\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_vec2}{Vec2}}$<$ T $>$ \&}]{vec2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+= operator overload. 
+\begin{DoxyParams}{Parameters}
+{\em vec2} & A const reference of a \mbox{\hyperlink{struct_vec2}{Vec2}} object indicates another \mbox{\hyperlink{struct_vec2}{Vec2}} object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A reference of a \mbox{\hyperlink{struct_vec2}{Vec2}} object indicates the \mbox{\hyperlink{struct_vec2}{Vec2}} object after the assignment. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{struct_vec2_a5863e18c106914f43d374be651b5fdb7}\label{struct_vec2_a5863e18c106914f43d374be651b5fdb7}} 
+\index{Vec2$<$ T $>$@{Vec2$<$ T $>$}!operator==@{operator==}}
+\index{operator==@{operator==}!Vec2$<$ T $>$@{Vec2$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+bool \mbox{\hyperlink{struct_vec2}{Vec2}}$<$ T $>$\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{struct_vec2}{Vec2}}$<$ T $>$ \&}]{other\+Vec }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+== operator overload. 
+\begin{DoxyParams}{Parameters}
+{\em other\+Vec} & A const reference of a \mbox{\hyperlink{struct_vec2}{Vec2}} object indicates another \mbox{\hyperlink{struct_vec2}{Vec2}} object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A bool value indicates whether 2 \mbox{\hyperlink{struct_vec2}{Vec2}} objects are equal or not. 
+\end{DoxyReturn}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+include/vec2.\+hpp\end{DoxyCompactItemize}

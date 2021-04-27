@@ -1,0 +1,179 @@
+\hypertarget{class_enemy_horde}{}\doxysection{Enemy\+Horde Class Reference}
+\label{class_enemy_horde}\index{EnemyHorde@{EnemyHorde}}
+
+
+{\ttfamily \#include $<$enemy\+\_\+horde.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_enemy_horde_a148ef3af07a5bde411af91f1accfe0c5}{Enemy\+Horde}} (\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ start\+Pos)
+\item 
+\mbox{\hyperlink{class_enemy_horde_acabf3735cd98acd005734788fe320788}{$\sim$\+Enemy\+Horde}} ()
+\item 
+void \mbox{\hyperlink{class_enemy_horde_a8265e3d17240d47dbfda484b61aec24e}{update}} (float delta\+Time)
+\item 
+\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ \mbox{\hyperlink{class_enemy_horde_a2de16f7c3cb1a0a391a89da339b20a18}{get\+Horde\+Size}} () const
+\item 
+\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ \mbox{\hyperlink{class_enemy_horde_a2fe550b320eca8fdf5f9a523c1e644d6}{get\+Horde\+Pos}} () const
+\item 
+bool \mbox{\hyperlink{class_enemy_horde_af156761ec1f1ee320076674b9ada9538}{is\+Colliding\+With\+Player}} (\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ player\+Pos) const
+\item 
+bool \mbox{\hyperlink{class_enemy_horde_a89751feca67ddc965e23039a82945354}{is\+ABullet\+Colliding}} (SDL\+\_\+\+Rect posnrect)
+\item 
+bool \mbox{\hyperlink{class_enemy_horde_a79739faeabf875c9e6a04c694ce881f4}{is\+Empty}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class indicates a horde of enemies. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_enemy_horde_a148ef3af07a5bde411af91f1accfe0c5}\label{class_enemy_horde_a148ef3af07a5bde411af91f1accfe0c5}} 
+\index{EnemyHorde@{EnemyHorde}!EnemyHorde@{EnemyHorde}}
+\index{EnemyHorde@{EnemyHorde}!EnemyHorde@{EnemyHorde}}
+\doxysubsubsection{\texorpdfstring{EnemyHorde()}{EnemyHorde()}}
+{\footnotesize\ttfamily Enemy\+Horde\+::\+Enemy\+Horde (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$}]{start\+Pos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+One argument constructor of \mbox{\hyperlink{class_enemy_horde}{Enemy\+Horde}} class. 
+\begin{DoxyParams}{Parameters}
+{\em start\+Pos} & A \mbox{\hyperlink{struct_vec2}{Vec2}} of integers indicate the enemy horde\textquotesingle{}s position. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_enemy_horde_acabf3735cd98acd005734788fe320788}\label{class_enemy_horde_acabf3735cd98acd005734788fe320788}} 
+\index{EnemyHorde@{EnemyHorde}!````~EnemyHorde@{$\sim$EnemyHorde}}
+\index{````~EnemyHorde@{$\sim$EnemyHorde}!EnemyHorde@{EnemyHorde}}
+\doxysubsubsection{\texorpdfstring{$\sim$EnemyHorde()}{~EnemyHorde()}}
+{\footnotesize\ttfamily Enemy\+Horde\+::$\sim$\+Enemy\+Horde (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default destructor of \mbox{\hyperlink{class_enemy_horde}{Enemy\+Horde}} class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_enemy_horde_a2fe550b320eca8fdf5f9a523c1e644d6}\label{class_enemy_horde_a2fe550b320eca8fdf5f9a523c1e644d6}} 
+\index{EnemyHorde@{EnemyHorde}!getHordePos@{getHordePos}}
+\index{getHordePos@{getHordePos}!EnemyHorde@{EnemyHorde}}
+\doxysubsubsection{\texorpdfstring{getHordePos()}{getHordePos()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ Enemy\+Horde\+::get\+Horde\+Pos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the enemy horde\textquotesingle{}s position. \begin{DoxyReturn}{Returns}
+A \mbox{\hyperlink{struct_vec2}{Vec2}} of integers indicates the position of the enemy horde. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_enemy_horde_a2de16f7c3cb1a0a391a89da339b20a18}\label{class_enemy_horde_a2de16f7c3cb1a0a391a89da339b20a18}} 
+\index{EnemyHorde@{EnemyHorde}!getHordeSize@{getHordeSize}}
+\index{getHordeSize@{getHordeSize}!EnemyHorde@{EnemyHorde}}
+\doxysubsubsection{\texorpdfstring{getHordeSize()}{getHordeSize()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ Enemy\+Horde\+::get\+Horde\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the size of the enemy horde. \begin{DoxyReturn}{Returns}
+A \mbox{\hyperlink{struct_vec2}{Vec2}} of integers indicates the size of the enemy horde. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_enemy_horde_a89751feca67ddc965e23039a82945354}\label{class_enemy_horde_a89751feca67ddc965e23039a82945354}} 
+\index{EnemyHorde@{EnemyHorde}!isABulletColliding@{isABulletColliding}}
+\index{isABulletColliding@{isABulletColliding}!EnemyHorde@{EnemyHorde}}
+\doxysubsubsection{\texorpdfstring{isABulletColliding()}{isABulletColliding()}}
+{\footnotesize\ttfamily bool Enemy\+Horde\+::is\+ABullet\+Colliding (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Rect}]{posnrect }\end{DoxyParamCaption})}
+
+Check if the enemy horde collides with the bullet or not. 
+\begin{DoxyParams}{Parameters}
+{\em posnrect} & A SDL\+\_\+\+Rect object indicates the bullet\textquotesingle{}s rectangle size. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean value indicates whether the enemy horde collides with the bullet or not. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_enemy_horde_a89751feca67ddc965e23039a82945354_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_enemy_horde_a89751feca67ddc965e23039a82945354_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_enemy_horde_af156761ec1f1ee320076674b9ada9538}\label{class_enemy_horde_af156761ec1f1ee320076674b9ada9538}} 
+\index{EnemyHorde@{EnemyHorde}!isCollidingWithPlayer@{isCollidingWithPlayer}}
+\index{isCollidingWithPlayer@{isCollidingWithPlayer}!EnemyHorde@{EnemyHorde}}
+\doxysubsubsection{\texorpdfstring{isCollidingWithPlayer()}{isCollidingWithPlayer()}}
+{\footnotesize\ttfamily bool Enemy\+Horde\+::is\+Colliding\+With\+Player (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$}]{player\+Pos }\end{DoxyParamCaption}) const}
+
+Check if the enemy horde collides with the player or not. 
+\begin{DoxyParams}{Parameters}
+{\em player\+Pos} & A \mbox{\hyperlink{struct_vec2}{Vec2}} of integers indicates the position of the player. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean value indicates whether the enemy horde collides with the player or not. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_enemy_horde_af156761ec1f1ee320076674b9ada9538_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_enemy_horde_af156761ec1f1ee320076674b9ada9538_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_enemy_horde_a79739faeabf875c9e6a04c694ce881f4}\label{class_enemy_horde_a79739faeabf875c9e6a04c694ce881f4}} 
+\index{EnemyHorde@{EnemyHorde}!isEmpty@{isEmpty}}
+\index{isEmpty@{isEmpty}!EnemyHorde@{EnemyHorde}}
+\doxysubsubsection{\texorpdfstring{isEmpty()}{isEmpty()}}
+{\footnotesize\ttfamily bool Enemy\+Horde\+::is\+Empty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Check if the enemy horde is empty or not. \begin{DoxyReturn}{Returns}
+A boolean value indicates whether the enemy horde is empty or not. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_enemy_horde_a79739faeabf875c9e6a04c694ce881f4_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_enemy_horde_a8265e3d17240d47dbfda484b61aec24e}\label{class_enemy_horde_a8265e3d17240d47dbfda484b61aec24e}} 
+\index{EnemyHorde@{EnemyHorde}!update@{update}}
+\index{update@{update}!EnemyHorde@{EnemyHorde}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Enemy\+Horde\+::update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+Update the position of the enemy horde. 
+\begin{DoxyParams}{Parameters}
+{\em delta\+Time} & A float indicates the delta time. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_enemy_horde_a8265e3d17240d47dbfda484b61aec24e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_enemy_horde_a8265e3d17240d47dbfda484b61aec24e_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/enemy\+\_\+horde.\+hpp\item 
+src/enemy\+\_\+horde.\+cpp\end{DoxyCompactItemize}

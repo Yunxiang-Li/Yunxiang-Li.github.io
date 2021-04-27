@@ -1,0 +1,114 @@
+\hypertarget{class_barricades}{}\doxysection{Barricades Class Reference}
+\label{class_barricades}\index{Barricades@{Barricades}}
+
+
+A class represents barricades\textquotesingle{} behaviors. its work is to form a barrier as a wall of protection between the aliens and the space shooter.  
+
+
+
+
+{\ttfamily \#include $<$barricades.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_barricades_ab2ae7fae6bac974d5632fe68e82ddca7}{Barricades}} (\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ player\+Pos)
+\item 
+\mbox{\hyperlink{class_barricades_a84c7b7546ae046898fc3f60b9481da4c}{$\sim$\+Barricades}} ()
+\item 
+void \mbox{\hyperlink{class_barricades_a3a494ce542e73816c8373181bc6bae13}{handle}} (\mbox{\hyperlink{class_enemy_horde}{Enemy\+Horde}} $\ast$enemy\+Horde)
+\item 
+void \mbox{\hyperlink{class_barricades_acb34fb8136bd2278b4d4ae50dc1bedac}{draw}} () const
+\item 
+\mbox{\hyperlink{class_sprite}{Sprite}} $\ast$$\ast$const \mbox{\hyperlink{class_barricades_a0c05e8a90d4dca8e0e45cd8d6642eb27}{get\+Barricades}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class represents barricades\textquotesingle{} behaviors. its work is to form a barrier as a wall of protection between the aliens and the space shooter. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_barricades_ab2ae7fae6bac974d5632fe68e82ddca7}\label{class_barricades_ab2ae7fae6bac974d5632fe68e82ddca7}} 
+\index{Barricades@{Barricades}!Barricades@{Barricades}}
+\index{Barricades@{Barricades}!Barricades@{Barricades}}
+\doxysubsubsection{\texorpdfstring{Barricades()}{Barricades()}}
+{\footnotesize\ttfamily Barricades\+::\+Barricades (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$}]{player\+Pos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+This is a class constructor used to initialized the barricade size and put the sprite needed for this. It sets the player\textquotesingle{}s position among these barricades. 
+\begin{DoxyParams}{Parameters}
+{\em player\+Pos} & A \mbox{\hyperlink{struct_vec2}{Vec2}} of integers which indicate the player\textquotesingle{}s position. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_barricades_a84c7b7546ae046898fc3f60b9481da4c}\label{class_barricades_a84c7b7546ae046898fc3f60b9481da4c}} 
+\index{Barricades@{Barricades}!````~Barricades@{$\sim$Barricades}}
+\index{````~Barricades@{$\sim$Barricades}!Barricades@{Barricades}}
+\doxysubsubsection{\texorpdfstring{$\sim$Barricades()}{~Barricades()}}
+{\footnotesize\ttfamily Barricades\+::$\sim$\+Barricades (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default destructor of \mbox{\hyperlink{class_barricades}{Barricades}} class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_barricades_acb34fb8136bd2278b4d4ae50dc1bedac}\label{class_barricades_acb34fb8136bd2278b4d4ae50dc1bedac}} 
+\index{Barricades@{Barricades}!draw@{draw}}
+\index{draw@{draw}!Barricades@{Barricades}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void Barricades\+::draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Render each barricade. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_barricades_acb34fb8136bd2278b4d4ae50dc1bedac_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_barricades_acb34fb8136bd2278b4d4ae50dc1bedac_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_barricades_a0c05e8a90d4dca8e0e45cd8d6642eb27}\label{class_barricades_a0c05e8a90d4dca8e0e45cd8d6642eb27}} 
+\index{Barricades@{Barricades}!getBarricades@{getBarricades}}
+\index{getBarricades@{getBarricades}!Barricades@{Barricades}}
+\doxysubsubsection{\texorpdfstring{getBarricades()}{getBarricades()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_sprite}{Sprite}} $\ast$$\ast$const Barricades\+::get\+Barricades (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Get a pointer to an array of barricades. \begin{DoxyReturn}{Returns}
+A pointer to an array of barricades. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_barricades_a3a494ce542e73816c8373181bc6bae13}\label{class_barricades_a3a494ce542e73816c8373181bc6bae13}} 
+\index{Barricades@{Barricades}!handle@{handle}}
+\index{handle@{handle}!Barricades@{Barricades}}
+\doxysubsubsection{\texorpdfstring{handle()}{handle()}}
+{\footnotesize\ttfamily void Barricades\+::handle (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_enemy_horde}{Enemy\+Horde}} $\ast$}]{enemy\+Horde }\end{DoxyParamCaption})}
+
+This function is used as a handler for barricades to set enemy horde. 
+\begin{DoxyParams}{Parameters}
+{\em enemy\+Horde} & A pointer to an \mbox{\hyperlink{class_enemy_horde}{Enemy\+Horde}} object. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_barricades_a3a494ce542e73816c8373181bc6bae13_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_barricades_a3a494ce542e73816c8373181bc6bae13_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/barricades.\+hpp\item 
+src/barricades.\+cpp\end{DoxyCompactItemize}

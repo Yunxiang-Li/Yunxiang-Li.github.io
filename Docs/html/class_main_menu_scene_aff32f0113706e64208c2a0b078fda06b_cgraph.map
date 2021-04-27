@@ -1,0 +1,8 @@
+<map id="MainMenuScene::MainMenuScene" name="MainMenuScene::MainMenuScene">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,229,133"/>
+<area shape="rect" id="node2" href="$class_button.html#a6289f6a6418b600d9607af6cab0bada0" title=" " alt="" coords="302,5,419,32"/>
+<area shape="rect" id="node3" href="$class_label.html#ae23e7594687dcefe9fceff58110caf4f" title=" " alt="" coords="307,56,414,83"/>
+<area shape="rect" id="node4" href="$class_game_utilities.html#ab8eeb265013e5e5794871faffccce7b6" title=" " alt="" coords="277,107,444,133"/>
+<area shape="rect" id="node5" href="$class_game.html#a4e0579bcbd9224fb918864dbe60a6192" title="scene is pushed" alt="" coords="295,157,426,184"/>
+<area shape="rect" id="node6" href="$class_label.html#ac641cbc08e7aacba93a45a028ec89e07" title=" " alt="" coords="304,208,417,235"/>
+</map>

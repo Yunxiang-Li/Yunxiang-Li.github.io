@@ -1,0 +1,11 @@
+<map id="PlaySPScene" name="PlaySPScene">
+<area shape="rect" id="node1" title=" " alt="" coords="338,185,441,212"/>
+<area shape="rect" id="node2" href="$class_play_scene.html" title=" " alt="" coords="347,109,432,136"/>
+<area shape="rect" id="node3" href="$class_scene.html" title=" " alt="" coords="5,5,64,32"/>
+<area shape="rect" id="node4" href="$class_special_monster.html" title=" " alt="" coords="88,5,200,32"/>
+<area shape="rect" id="node5" href="$class_enemy_horde.html" title=" " alt="" coords="225,5,322,32"/>
+<area shape="rect" id="node6" href="$class_u_i.html" title=" " alt="" coords="346,5,385,32"/>
+<area shape="rect" id="node7" href="$class_barricades.html" title="A class represents barricades&#39; behaviors. its work is to form a barrier as a wall of protection betwe..." alt="" coords="409,5,493,32"/>
+<area shape="rect" id="node8" href="$class_player.html" title=" " alt="" coords="517,5,576,32"/>
+<area shape="rect" id="node9" href="$class_label.html" title=" " alt="" coords="600,5,653,32"/>
+</map>

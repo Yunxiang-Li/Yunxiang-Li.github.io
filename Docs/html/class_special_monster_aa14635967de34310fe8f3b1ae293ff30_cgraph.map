@@ -1,0 +1,10 @@
+<map id="SpecialMonster::update" name="SpecialMonster::update">
+<area shape="rect" id="node1" title=" " alt="" coords="5,97,164,123"/>
+<area shape="rect" id="node2" href="$class_game_utilities.html#ad80490f5bdb18a3a72eff7decdd3a5d8" title=" " alt="" coords="212,5,387,47"/>
+<area shape="rect" id="node3" href="$class_enemy.html#a6f2cbc0e4193431f7003b6f5029dc427" title=" " alt="" coords="242,71,357,98"/>
+<area shape="rect" id="node4" href="$class_enemy.html#a2de6bc368101053a7e6d603bcd3f6ec2" title=" " alt="" coords="231,122,367,149"/>
+<area shape="rect" id="node5" href="$class_enemy.html#a0b425edca284f72d0684dd130ad6cf84" title=" " alt="" coords="244,173,355,199"/>
+<area shape="rect" id="node6" href="$class_sprite.html#ae6f73dfb04322263eb83b4e464f4838a" title=" " alt="" coords="454,147,545,174"/>
+<area shape="rect" id="node8" href="$class_sprite.html#ad6116e099a11c2c24e8ff987cc06c6e2" title=" " alt="" coords="435,198,564,225"/>
+<area shape="rect" id="node7" href="$class_s_d_l___components.html#ac70cfeabfe8b8caf5ad58bfd255c906b" title=" " alt="" coords="612,147,817,174"/>
+</map>

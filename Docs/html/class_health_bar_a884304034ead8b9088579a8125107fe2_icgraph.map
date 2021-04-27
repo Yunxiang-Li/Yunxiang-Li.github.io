@@ -1,0 +1,9 @@
+<map id="HealthBar::getLives" name="HealthBar::getLives">
+<area shape="rect" id="node1" title=" " alt="" coords="819,56,953,83"/>
+<area shape="rect" id="node2" href="$class_u_i.html#ad7047df67e9c7a3492302dc5f63d20b0" title=" " alt="" coords="620,31,771,57"/>
+<area shape="rect" id="node7" href="$class_u_i.html#ae7be34f9fc5b8458ea64c6edfc84c4ce" title=" " alt="" coords="621,81,770,108"/>
+<area shape="rect" id="node3" href="$class_play_scene.html#ac45be9a7257e5d171b15366899824079" title=" " alt="" coords="404,31,572,57"/>
+<area shape="rect" id="node4" href="$class_play_scene.html#aa857b8073b832204d8e96b9b507a2ddc" title=" " alt="" coords="214,5,346,32"/>
+<area shape="rect" id="node6" href="$class_play_m_p_scene.html#a532bb78463990e5030c9033bfcb1cee9" title=" " alt="" coords="204,56,356,83"/>
+<area shape="rect" id="node5" href="$class_play_s_p_scene.html#a41d003fc751311168bc3d5cf47c35e22" title=" " alt="" coords="5,5,156,32"/>
+</map>

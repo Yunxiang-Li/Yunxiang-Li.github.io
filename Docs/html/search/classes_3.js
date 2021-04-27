@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['paddle_41',['Paddle',['../class_paddle.html',1,'']]]
+  ['healthbar_149',['HealthBar',['../class_health_bar.html',1,'']]],
+  ['highscorescene_150',['HighscoreScene',['../class_highscore_scene.html',1,'']]]
 ];

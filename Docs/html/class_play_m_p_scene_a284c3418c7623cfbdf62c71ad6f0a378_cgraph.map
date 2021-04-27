@@ -1,0 +1,9 @@
+<map id="PlayMPScene::PlayMPScene" name="PlayMPScene::PlayMPScene">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,201,133"/>
+<area shape="rect" id="node2" href="$class_sprite.html#a87fef26da62a3689e851d7770f109f9e" title=" " alt="" coords="266,5,395,32"/>
+<area shape="rect" id="node3" href="$class_sprite.html#acd89f4d31b565de8526c6615d751760a" title=" " alt="" coords="249,56,412,83"/>
+<area shape="rect" id="node4" href="$class_player.html#a19d7f02d0de949292ba784dd1920536a" title=" " alt="" coords="271,107,390,133"/>
+<area shape="rect" id="node5" href="$class_sprite.html#a61a068aeb1e6297264cd39f7eda1b7c7" title=" " alt="" coords="273,157,388,184"/>
+<area shape="rect" id="node6" href="$class_player.html#a470a9e8a82d2d7166c586b5044c5a857" title=" " alt="" coords="265,208,397,235"/>
+<area shape="rect" id="node7" href="$class_sprite.html#ad6116e099a11c2c24e8ff987cc06c6e2" title=" " alt="" coords="460,208,589,235"/>
+</map>

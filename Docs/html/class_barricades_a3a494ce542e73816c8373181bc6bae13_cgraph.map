@@ -1,0 +1,10 @@
+<map id="Barricades::handle" name="Barricades::handle">
+<area shape="rect" id="node1" title=" " alt="" coords="5,144,136,171"/>
+<area shape="rect" id="node2" href="$class_game_utilities.html#ad43998ed9acbd70688f3813c36802454" title=" " alt="" coords="439,5,613,32"/>
+<area shape="rect" id="node3" href="$class_bullet.html#a688d6b75822e4cab5f1cbcdd1511263a" title=" " alt="" coords="234,195,341,221"/>
+<area shape="rect" id="node4" href="$class_player.html#a387006e0389129033279784fc9ae0041" title=" " alt="" coords="225,245,350,272"/>
+<area shape="rect" id="node5" href="$class_sprite.html#acd89f4d31b565de8526c6615d751760a" title=" " alt="" coords="445,68,607,95"/>
+<area shape="rect" id="node6" href="$class_bullet.html#ade211422ba104b64a38aa5a2933500ca" title=" " alt="" coords="469,119,583,145"/>
+<area shape="rect" id="node7" href="$class_enemy_horde.html#a89751feca67ddc965e23039a82945354" title=" " alt="" coords="184,93,391,120"/>
+<area shape="rect" id="node8" href="$class_sprite.html#a61a068aeb1e6297264cd39f7eda1b7c7" title=" " alt="" coords="230,296,345,323"/>
+</map>

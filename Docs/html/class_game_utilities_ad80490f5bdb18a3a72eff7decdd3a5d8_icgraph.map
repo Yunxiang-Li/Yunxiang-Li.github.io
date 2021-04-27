@@ -1,0 +1,12 @@
+<map id="GameUtilities::getRandomNumber" name="GameUtilities::getRandomNumber">
+<area shape="rect" id="node1" title=" " alt="" coords="893,74,1068,115"/>
+<area shape="rect" id="node2" href="$class_play_scene.html#af82d58d8cca546bfd839355bafef4a6a" title=" " alt="" coords="662,5,818,32"/>
+<area shape="rect" id="node3" href="$class_special_monster.html#a79b0ac61b6d83f7b378f62071afda1b1" title=" " alt="" coords="635,56,845,83"/>
+<area shape="rect" id="node4" href="$class_enemy_horde.html#a8265e3d17240d47dbfda484b61aec24e" title=" " alt="" coords="668,107,812,133"/>
+<area shape="rect" id="node8" href="$class_special_monster.html#aa14635967de34310fe8f3b1ae293ff30" title=" " alt="" coords="661,159,819,185"/>
+<area shape="rect" id="node5" href="$class_play_scene.html#a3d062f7587b5619e20e78ea28fd11520" title=" " alt="" coords="404,104,587,131"/>
+<area shape="rect" id="node6" href="$class_play_scene.html#aa857b8073b832204d8e96b9b507a2ddc" title=" " alt="" coords="214,108,346,135"/>
+<area shape="rect" id="node7" href="$class_play_s_p_scene.html#a41d003fc751311168bc3d5cf47c35e22" title=" " alt="" coords="5,108,156,135"/>
+<area shape="rect" id="node9" href="$class_play_scene.html#a7a35535ed2567b83c46fed0b89ffdc96" title=" " alt="" coords="408,155,583,197"/>
+<area shape="rect" id="node10" href="$class_play_m_p_scene.html#a532bb78463990e5030c9033bfcb1cee9" title=" " alt="" coords="204,163,356,189"/>
+</map>

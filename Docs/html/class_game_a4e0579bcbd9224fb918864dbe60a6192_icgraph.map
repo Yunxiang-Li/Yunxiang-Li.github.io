@@ -1,0 +1,5 @@
+<map id="Game::pushScene" name="Game::pushScene">
+<area shape="rect" id="node1" title="scene is pushed" alt="" coords="277,31,408,57"/>
+<area shape="rect" id="node2" href="$class_game.html#ad59df6562a58a614fda24622d3715b65" title=" " alt="" coords="67,5,167,32"/>
+<area shape="rect" id="node3" href="$class_main_menu_scene.html#aff32f0113706e64208c2a0b078fda06b" title=" " alt="" coords="5,56,229,83"/>
+</map>

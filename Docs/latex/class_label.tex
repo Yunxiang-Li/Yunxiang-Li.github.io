@@ -1,0 +1,231 @@
+\hypertarget{class_label}{}\doxysection{Label Class Reference}
+\label{class_label}\index{Label@{Label}}
+
+
+{\ttfamily \#include $<$label.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_label_a5922b139928ef4b1a157519caaf00d58}{Label}} (const char $\ast$text, \mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ pos, Colors color, int font\+Size)
+\item 
+\mbox{\hyperlink{class_label_a39e1167a9b5827afd888780973d88894}{$\sim$\+Label}} ()
+\item 
+SDL\+\_\+\+Texture $\ast$ \mbox{\hyperlink{class_label_ac6bb851ea63be76474897e64455c1584}{get\+Texture}} () const
+\item 
+const char $\ast$ \mbox{\hyperlink{class_label_a7faeff32367968b12e673131065b271b}{get\+Text}} () const
+\item 
+int \mbox{\hyperlink{class_label_ac3cfaecf0e87aa8071883ba41c53fc8d}{get\+Text\+Lenght}} () const
+\item 
+\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ \mbox{\hyperlink{class_label_a9732e38d43cda33f772031de3886a883}{get\+Pos}} () const
+\item 
+Colors \mbox{\hyperlink{class_label_ae90a6483bcdedb5ac739cdb57c3e2c83}{get\+Color}} () const
+\item 
+SDL\+\_\+\+Rect \mbox{\hyperlink{class_label_ae23e7594687dcefe9fceff58110caf4f}{get\+Rect}} () const
+\item 
+\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ \mbox{\hyperlink{class_label_a8a2698f3beff0d54bd5ea721cca8c388}{get\+Offset}} () const
+\item 
+void \mbox{\hyperlink{class_label_a77a76beef5dc308158dee82f1cc2ab7a}{set\+Text}} (const char $\ast$text)
+\item 
+void \mbox{\hyperlink{class_label_ac641cbc08e7aacba93a45a028ec89e07}{set\+Offset}} (\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ offset)
+\item 
+void \mbox{\hyperlink{class_label_ae7e6355320e65afe48d82168cb031300}{set\+Label\+Color}} (Colors color)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class represents a button\textquotesingle{}s label behaviors. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_label_a5922b139928ef4b1a157519caaf00d58}\label{class_label_a5922b139928ef4b1a157519caaf00d58}} 
+\index{Label@{Label}!Label@{Label}}
+\index{Label@{Label}!Label@{Label}}
+\doxysubsubsection{\texorpdfstring{Label()}{Label()}}
+{\footnotesize\ttfamily Label\+::\+Label (\begin{DoxyParamCaption}\item[{const char $\ast$}]{text,  }\item[{\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$}]{pos,  }\item[{Colors}]{color,  }\item[{int}]{font\+Size }\end{DoxyParamCaption})}
+
+Four arguments constructor of \mbox{\hyperlink{class_label}{Label}} class. 
+\begin{DoxyParams}{Parameters}
+{\em text} & A const pointer to a char array indicates the label\textquotesingle{}s text. \\
+\hline
+{\em pos} & A \mbox{\hyperlink{struct_vec2}{Vec2}} of integers indicates the label\textquotesingle{}s position. \\
+\hline
+{\em color} & An enum of Colors indicates the label\textquotesingle{}s color. \\
+\hline
+{\em font\+Size} & An integer indicates the label font\textquotesingle{}s size. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{class_label_a5922b139928ef4b1a157519caaf00d58_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_label_a39e1167a9b5827afd888780973d88894}\label{class_label_a39e1167a9b5827afd888780973d88894}} 
+\index{Label@{Label}!````~Label@{$\sim$Label}}
+\index{````~Label@{$\sim$Label}!Label@{Label}}
+\doxysubsubsection{\texorpdfstring{$\sim$Label()}{~Label()}}
+{\footnotesize\ttfamily Label\+::$\sim$\+Label (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default destructor of \mbox{\hyperlink{class_label}{Label}} class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_label_ae90a6483bcdedb5ac739cdb57c3e2c83}\label{class_label_ae90a6483bcdedb5ac739cdb57c3e2c83}} 
+\index{Label@{Label}!getColor@{getColor}}
+\index{getColor@{getColor}!Label@{Label}}
+\doxysubsubsection{\texorpdfstring{getColor()}{getColor()}}
+{\footnotesize\ttfamily Colors Label\+::get\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get label object\textquotesingle{}s current color. \begin{DoxyReturn}{Returns}
+An enum of Colors indicates the label\textquotesingle{}s color. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_label_a8a2698f3beff0d54bd5ea721cca8c388}\label{class_label_a8a2698f3beff0d54bd5ea721cca8c388}} 
+\index{Label@{Label}!getOffset@{getOffset}}
+\index{getOffset@{getOffset}!Label@{Label}}
+\doxysubsubsection{\texorpdfstring{getOffset()}{getOffset()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ Label\+::get\+Offset (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get label object\textquotesingle{}s offsets. \begin{DoxyReturn}{Returns}
+A \mbox{\hyperlink{struct_vec2}{Vec2}} of integers indicates the label object\textquotesingle{}s offsets. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_label_a8a2698f3beff0d54bd5ea721cca8c388_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_label_a9732e38d43cda33f772031de3886a883}\label{class_label_a9732e38d43cda33f772031de3886a883}} 
+\index{Label@{Label}!getPos@{getPos}}
+\index{getPos@{getPos}!Label@{Label}}
+\doxysubsubsection{\texorpdfstring{getPos()}{getPos()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ Label\+::get\+Pos (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get label object\textquotesingle{}s current position. \begin{DoxyReturn}{Returns}
+A \mbox{\hyperlink{struct_vec2}{Vec2}} of integers indicates the label object\textquotesingle{}s current position. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_label_ae23e7594687dcefe9fceff58110caf4f}\label{class_label_ae23e7594687dcefe9fceff58110caf4f}} 
+\index{Label@{Label}!getRect@{getRect}}
+\index{getRect@{getRect}!Label@{Label}}
+\doxysubsubsection{\texorpdfstring{getRect()}{getRect()}}
+{\footnotesize\ttfamily SDL\+\_\+\+Rect Label\+::get\+Rect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get current label\textquotesingle{}s SDL\+\_\+\+Rect object. \begin{DoxyReturn}{Returns}
+A SDL\+\_\+\+Rect object indicates the label object\textquotesingle{}s rectangle size. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_label_ae23e7594687dcefe9fceff58110caf4f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_label_a7faeff32367968b12e673131065b271b}\label{class_label_a7faeff32367968b12e673131065b271b}} 
+\index{Label@{Label}!getText@{getText}}
+\index{getText@{getText}!Label@{Label}}
+\doxysubsubsection{\texorpdfstring{getText()}{getText()}}
+{\footnotesize\ttfamily const char $\ast$ Label\+::get\+Text (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get label object\textquotesingle{}s text content. \begin{DoxyReturn}{Returns}
+A const pointer to a char array indicates the label\textquotesingle{}s text. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_label_ac3cfaecf0e87aa8071883ba41c53fc8d}\label{class_label_ac3cfaecf0e87aa8071883ba41c53fc8d}} 
+\index{Label@{Label}!getTextLenght@{getTextLenght}}
+\index{getTextLenght@{getTextLenght}!Label@{Label}}
+\doxysubsubsection{\texorpdfstring{getTextLenght()}{getTextLenght()}}
+{\footnotesize\ttfamily int Label\+::get\+Text\+Lenght (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get label object\textquotesingle{}s text\textquotesingle{}s length. \begin{DoxyReturn}{Returns}
+An integer indicates the label object\textquotesingle{}s text\textquotesingle{}s length. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_label_ac6bb851ea63be76474897e64455c1584}\label{class_label_ac6bb851ea63be76474897e64455c1584}} 
+\index{Label@{Label}!getTexture@{getTexture}}
+\index{getTexture@{getTexture}!Label@{Label}}
+\doxysubsubsection{\texorpdfstring{getTexture()}{getTexture()}}
+{\footnotesize\ttfamily SDL\+\_\+\+Texture $\ast$ Label\+::get\+Texture (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get label object\textquotesingle{}s texture. \begin{DoxyReturn}{Returns}
+A pointer to a SDL\+\_\+\+Texture object indicates the label object\textquotesingle{}s texture. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_label_ac6bb851ea63be76474897e64455c1584_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_label_ae7e6355320e65afe48d82168cb031300}\label{class_label_ae7e6355320e65afe48d82168cb031300}} 
+\index{Label@{Label}!setLabelColor@{setLabelColor}}
+\index{setLabelColor@{setLabelColor}!Label@{Label}}
+\doxysubsubsection{\texorpdfstring{setLabelColor()}{setLabelColor()}}
+{\footnotesize\ttfamily void Label\+::set\+Label\+Color (\begin{DoxyParamCaption}\item[{Colors}]{color }\end{DoxyParamCaption})}
+
+Set label object\textquotesingle{}s current color. 
+\begin{DoxyParams}{Parameters}
+{\em color} & An enum of Colors indicates the label\textquotesingle{}s color to be set. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_label_ae7e6355320e65afe48d82168cb031300_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_label_ac641cbc08e7aacba93a45a028ec89e07}\label{class_label_ac641cbc08e7aacba93a45a028ec89e07}} 
+\index{Label@{Label}!setOffset@{setOffset}}
+\index{setOffset@{setOffset}!Label@{Label}}
+\doxysubsubsection{\texorpdfstring{setOffset()}{setOffset()}}
+{\footnotesize\ttfamily void Label\+::set\+Offset (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$}]{offset }\end{DoxyParamCaption})}
+
+Set label object\textquotesingle{}s offsets. 
+\begin{DoxyParams}{Parameters}
+{\em offset} & A \mbox{\hyperlink{struct_vec2}{Vec2}} of integers indicates the label object\textquotesingle{}s offsets to be set. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_label_ac641cbc08e7aacba93a45a028ec89e07_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_label_a77a76beef5dc308158dee82f1cc2ab7a}\label{class_label_a77a76beef5dc308158dee82f1cc2ab7a}} 
+\index{Label@{Label}!setText@{setText}}
+\index{setText@{setText}!Label@{Label}}
+\doxysubsubsection{\texorpdfstring{setText()}{setText()}}
+{\footnotesize\ttfamily void Label\+::set\+Text (\begin{DoxyParamCaption}\item[{const char $\ast$}]{text }\end{DoxyParamCaption})}
+
+Set label object\textquotesingle{}s text content. 
+\begin{DoxyParams}{Parameters}
+{\em text} & A const pointer to a char array indicates the label\textquotesingle{}s text to be set. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=348pt]{class_label_a77a76beef5dc308158dee82f1cc2ab7a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_label_a77a76beef5dc308158dee82f1cc2ab7a_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/label.\+hpp\item 
+src/label.\+cpp\end{DoxyCompactItemize}

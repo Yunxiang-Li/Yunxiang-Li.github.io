@@ -1,0 +1,90 @@
+\hypertarget{class_button}{}\doxysection{Button Class Reference}
+\label{class_button}\index{Button@{Button}}
+
+
+{\ttfamily \#include $<$button.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_button_a783b0adcb93b4c7b7520ab491e944d2b}{Button}} (\mbox{\hyperlink{class_label}{Label}} $\ast$label, std\+::function$<$ void()$>$ func)
+\item 
+\mbox{\hyperlink{class_button_a2a001eb9c3cc8ae54768a850dd345002}{$\sim$\+Button}} ()
+\item 
+void \mbox{\hyperlink{class_button_ad8e030c1c8846d43f3126047d4a3667f}{update}} ()
+\item 
+\mbox{\hyperlink{class_label}{Label}} $\ast$ \mbox{\hyperlink{class_button_a6289f6a6418b600d9607af6cab0bada0}{get\+Label}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class represents each button\textquotesingle{}s behavior. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_button_a783b0adcb93b4c7b7520ab491e944d2b}\label{class_button_a783b0adcb93b4c7b7520ab491e944d2b}} 
+\index{Button@{Button}!Button@{Button}}
+\index{Button@{Button}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{Button()}{Button()}}
+{\footnotesize\ttfamily Button\+::\+Button (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_label}{Label}} $\ast$}]{label,  }\item[{std\+::function$<$ void()$>$}]{func }\end{DoxyParamCaption})}
+
+Two arguments constructor of \mbox{\hyperlink{class_button}{Button}} class. 
+\begin{DoxyParams}{Parameters}
+{\em label} & A pointer to a \mbox{\hyperlink{class_label}{Label}} object indicates a button\textquotesingle{}s label. \\
+\hline
+{\em func} & A function pointer \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_button_a2a001eb9c3cc8ae54768a850dd345002}\label{class_button_a2a001eb9c3cc8ae54768a850dd345002}} 
+\index{Button@{Button}!````~Button@{$\sim$Button}}
+\index{````~Button@{$\sim$Button}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{$\sim$Button()}{~Button()}}
+{\footnotesize\ttfamily Button\+::$\sim$\+Button (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default destructor of \mbox{\hyperlink{class_button}{Button}} class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_button_a6289f6a6418b600d9607af6cab0bada0}\label{class_button_a6289f6a6418b600d9607af6cab0bada0}} 
+\index{Button@{Button}!getLabel@{getLabel}}
+\index{getLabel@{getLabel}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{getLabel()}{getLabel()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_label}{Label}} $\ast$ Button\+::get\+Label (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the button\textquotesingle{}s label. \begin{DoxyReturn}{Returns}
+A pointer to a \mbox{\hyperlink{class_label}{Label}} object indicates the button\textquotesingle{}s label. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_button_a6289f6a6418b600d9607af6cab0bada0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_button_ad8e030c1c8846d43f3126047d4a3667f}\label{class_button_ad8e030c1c8846d43f3126047d4a3667f}} 
+\index{Button@{Button}!update@{update}}
+\index{update@{update}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Button\+::update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Update the button conditions. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_button_ad8e030c1c8846d43f3126047d4a3667f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=321pt]{class_button_ad8e030c1c8846d43f3126047d4a3667f_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/button.\+hpp\item 
+src/button.\+cpp\end{DoxyCompactItemize}

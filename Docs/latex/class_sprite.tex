@@ -1,0 +1,368 @@
+\hypertarget{class_sprite}{}\doxysection{Sprite Class Reference}
+\label{class_sprite}\index{Sprite@{Sprite}}
+
+
+{\ttfamily \#include $<$sprite.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_sprite_abafe38f90aa6e73550f5bda8dc29911d}{Sprite}} (const char $\ast$image\+Location, SDL\+\_\+\+Rect size\+Rect)
+\item 
+\mbox{\hyperlink{class_sprite_a5c2a5bb014dcb96ced3316aa10c46e14}{Sprite}} (const char $\ast$image\+Location, SDL\+\_\+\+Rect size\+Rect, SDL\+\_\+\+Rect crop\+Rect)
+\item 
+\mbox{\hyperlink{class_sprite_a2eb2b369e19318e77b8f746e091766f6}{Sprite}} (const \mbox{\hyperlink{class_sprite}{Sprite}} \&sprite)
+\item 
+\mbox{\hyperlink{class_sprite_a8accab430f9d90ae5117b57d67e32b84}{$\sim$\+Sprite}} ()
+\item 
+\mbox{\hyperlink{class_sprite}{Sprite}} \& \mbox{\hyperlink{class_sprite_a2c1d3d16ea3c94906b578430cc17f741}{operator=}} (const \mbox{\hyperlink{class_sprite}{Sprite}} \&sprite)
+\item 
+void \mbox{\hyperlink{class_sprite_ae6f73dfb04322263eb83b4e464f4838a}{draw}} () const
+\item 
+void \mbox{\hyperlink{class_sprite_a668af006e8047f86d547cd83f33b0b4f}{setup\+Sprite}} (SDL\+\_\+\+Texture $\ast$texture, SDL\+\_\+\+Rect crop\+Rect, SDL\+\_\+\+Rect posnsize\+Rect)
+\item 
+void \mbox{\hyperlink{class_sprite_ad6116e099a11c2c24e8ff987cc06c6e2}{set\+Position}} (\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ position)
+\item 
+void \mbox{\hyperlink{class_sprite_a9ccc493ae35fee3ee485b489e38998e6}{set\+Texture}} (SDL\+\_\+\+Texture $\ast$texture)
+\item 
+void \mbox{\hyperlink{class_sprite_a97bc706aed3b9ff03c497e7c09569a85}{set\+Crop\+Rect}} (SDL\+\_\+\+Rect crop\+Rect)
+\item 
+void \mbox{\hyperlink{class_sprite_a2102dce1678e9a465ba0b0e6aed107d0}{set\+Posnsize\+Rect}} (SDL\+\_\+\+Rect posnsize\+Rect)
+\item 
+void \mbox{\hyperlink{class_sprite_a61a068aeb1e6297264cd39f7eda1b7c7}{set\+Alpha}} (int alpha)
+\item 
+SDL\+\_\+\+Texture $\ast$ \mbox{\hyperlink{class_sprite_ab8dc9e6deaea76108e7c8b6046c1ef2b}{get\+Texture}} () const
+\item 
+SDL\+\_\+\+Rect \mbox{\hyperlink{class_sprite_aefd70033a52bb61389d67c59e836615d}{get\+Crop\+Rect}} () const
+\item 
+SDL\+\_\+\+Rect \mbox{\hyperlink{class_sprite_acd89f4d31b565de8526c6615d751760a}{get\+Posnsize\+Rect}} () const
+\item 
+\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ \mbox{\hyperlink{class_sprite_a87fef26da62a3689e851d7770f109f9e}{get\+Position}} () const
+\item 
+int \mbox{\hyperlink{class_sprite_a42f071c22f908f3013ccb9a3d8ff9014}{get\+Alpha}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class represents a \mbox{\hyperlink{class_sprite}{Sprite}} object\textquotesingle{}s behaviors. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_sprite_abafe38f90aa6e73550f5bda8dc29911d}\label{class_sprite_abafe38f90aa6e73550f5bda8dc29911d}} 
+\index{Sprite@{Sprite}!Sprite@{Sprite}}
+\index{Sprite@{Sprite}!Sprite@{Sprite}}
+\doxysubsubsection{\texorpdfstring{Sprite()}{Sprite()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Sprite\+::\+Sprite (\begin{DoxyParamCaption}\item[{const char $\ast$}]{image\+Location,  }\item[{SDL\+\_\+\+Rect}]{size\+Rect }\end{DoxyParamCaption})}
+
+Two arguments constructor of \mbox{\hyperlink{class_sprite}{Sprite}} class. 
+\begin{DoxyParams}{Parameters}
+{\em image\+Location} & A const pointer to a char array indicates the location of the sprite. \\
+\hline
+{\em size\+Rect} & A SDL\+\_\+\+Rect object indicates the sprite object\textquotesingle{}s rectangle size. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{class_sprite_abafe38f90aa6e73550f5bda8dc29911d_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_sprite_a5c2a5bb014dcb96ced3316aa10c46e14}\label{class_sprite_a5c2a5bb014dcb96ced3316aa10c46e14}} 
+\index{Sprite@{Sprite}!Sprite@{Sprite}}
+\index{Sprite@{Sprite}!Sprite@{Sprite}}
+\doxysubsubsection{\texorpdfstring{Sprite()}{Sprite()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Sprite\+::\+Sprite (\begin{DoxyParamCaption}\item[{const char $\ast$}]{image\+Location,  }\item[{SDL\+\_\+\+Rect}]{size\+Rect,  }\item[{SDL\+\_\+\+Rect}]{crop\+Rect }\end{DoxyParamCaption})}
+
+Three arguments constructor of \mbox{\hyperlink{class_sprite}{Sprite}} class. 
+\begin{DoxyParams}{Parameters}
+{\em image\+Location} & image\+Location A const pointer to a char array indicates the location of the sprite. \\
+\hline
+{\em size\+Rect} & A SDL\+\_\+\+Rect object indicates the sprite object\textquotesingle{}s rectangle size. \\
+\hline
+{\em crop\+Rect} & A SDL\+\_\+\+Rect object indicates the sprite object\textquotesingle{}s crop rectangle size. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=344pt]{class_sprite_a5c2a5bb014dcb96ced3316aa10c46e14_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_sprite_a2eb2b369e19318e77b8f746e091766f6}\label{class_sprite_a2eb2b369e19318e77b8f746e091766f6}} 
+\index{Sprite@{Sprite}!Sprite@{Sprite}}
+\index{Sprite@{Sprite}!Sprite@{Sprite}}
+\doxysubsubsection{\texorpdfstring{Sprite()}{Sprite()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Sprite\+::\+Sprite (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_sprite}{Sprite}} \&}]{sprite }\end{DoxyParamCaption})}
+
+Copy constructor of \mbox{\hyperlink{class_sprite}{Sprite}} class. 
+\begin{DoxyParams}{Parameters}
+{\em sprite} & A const reference of one sprite object indicates Another sprite object. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_sprite_a8accab430f9d90ae5117b57d67e32b84}\label{class_sprite_a8accab430f9d90ae5117b57d67e32b84}} 
+\index{Sprite@{Sprite}!````~Sprite@{$\sim$Sprite}}
+\index{````~Sprite@{$\sim$Sprite}!Sprite@{Sprite}}
+\doxysubsubsection{\texorpdfstring{$\sim$Sprite()}{~Sprite()}}
+{\footnotesize\ttfamily Sprite\+::$\sim$\+Sprite (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Destructor of \mbox{\hyperlink{class_sprite}{Sprite}} class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_sprite_ae6f73dfb04322263eb83b4e464f4838a}\label{class_sprite_ae6f73dfb04322263eb83b4e464f4838a}} 
+\index{Sprite@{Sprite}!draw@{draw}}
+\index{draw@{draw}!Sprite@{Sprite}}
+\doxysubsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void Sprite\+::draw (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Render the sprite object. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=338pt]{class_sprite_ae6f73dfb04322263eb83b4e464f4838a_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_sprite_ae6f73dfb04322263eb83b4e464f4838a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_sprite_a42f071c22f908f3013ccb9a3d8ff9014}\label{class_sprite_a42f071c22f908f3013ccb9a3d8ff9014}} 
+\index{Sprite@{Sprite}!getAlpha@{getAlpha}}
+\index{getAlpha@{getAlpha}!Sprite@{Sprite}}
+\doxysubsubsection{\texorpdfstring{getAlpha()}{getAlpha()}}
+{\footnotesize\ttfamily int Sprite\+::get\+Alpha (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the sprite object\textquotesingle{}s alpha value. 
+\begin{DoxyParams}{Parameters}
+{\em alpha} & An integer indicates the sprite object\textquotesingle{}s alpha value. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_sprite_aefd70033a52bb61389d67c59e836615d}\label{class_sprite_aefd70033a52bb61389d67c59e836615d}} 
+\index{Sprite@{Sprite}!getCropRect@{getCropRect}}
+\index{getCropRect@{getCropRect}!Sprite@{Sprite}}
+\doxysubsubsection{\texorpdfstring{getCropRect()}{getCropRect()}}
+{\footnotesize\ttfamily SDL\+\_\+\+Rect Sprite\+::get\+Crop\+Rect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the sprite object\textquotesingle{}s crop size. 
+\begin{DoxyParams}{Parameters}
+{\em crop\+Rect} & A SDL\+\_\+\+Rect object indicates the sprite object\textquotesingle{}s crop rectangle size. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=307pt]{class_sprite_aefd70033a52bb61389d67c59e836615d_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_sprite_a87fef26da62a3689e851d7770f109f9e}\label{class_sprite_a87fef26da62a3689e851d7770f109f9e}} 
+\index{Sprite@{Sprite}!getPosition@{getPosition}}
+\index{getPosition@{getPosition}!Sprite@{Sprite}}
+\doxysubsubsection{\texorpdfstring{getPosition()}{getPosition()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ Sprite\+::get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the sprite object\textquotesingle{}s position. 
+\begin{DoxyParams}{Parameters}
+{\em position} & A \mbox{\hyperlink{struct_vec2}{Vec2}} of integers indicates the sprite object\textquotesingle{}s position. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_sprite_a87fef26da62a3689e851d7770f109f9e_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_sprite_acd89f4d31b565de8526c6615d751760a}\label{class_sprite_acd89f4d31b565de8526c6615d751760a}} 
+\index{Sprite@{Sprite}!getPosnsizeRect@{getPosnsizeRect}}
+\index{getPosnsizeRect@{getPosnsizeRect}!Sprite@{Sprite}}
+\doxysubsubsection{\texorpdfstring{getPosnsizeRect()}{getPosnsizeRect()}}
+{\footnotesize\ttfamily SDL\+\_\+\+Rect Sprite\+::get\+Posnsize\+Rect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the sprite object\textquotesingle{}s position size. 
+\begin{DoxyParams}{Parameters}
+{\em posnsize\+Rect} & A SDL\+\_\+\+Rect object indicates the sprite object\textquotesingle{}s position size. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_sprite_acd89f4d31b565de8526c6615d751760a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_sprite_ab8dc9e6deaea76108e7c8b6046c1ef2b}\label{class_sprite_ab8dc9e6deaea76108e7c8b6046c1ef2b}} 
+\index{Sprite@{Sprite}!getTexture@{getTexture}}
+\index{getTexture@{getTexture}!Sprite@{Sprite}}
+\doxysubsubsection{\texorpdfstring{getTexture()}{getTexture()}}
+{\footnotesize\ttfamily SDL\+\_\+\+Texture $\ast$ Sprite\+::get\+Texture (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get the sprite object\textquotesingle{}s texture. 
+\begin{DoxyParams}{Parameters}
+{\em texture} & A pointer to a SDL\+\_\+\+Texture object indicates the sprite object\textquotesingle{}s texture. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=299pt]{class_sprite_ab8dc9e6deaea76108e7c8b6046c1ef2b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_sprite_a2c1d3d16ea3c94906b578430cc17f741}\label{class_sprite_a2c1d3d16ea3c94906b578430cc17f741}} 
+\index{Sprite@{Sprite}!operator=@{operator=}}
+\index{operator=@{operator=}!Sprite@{Sprite}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_sprite}{Sprite}} \& Sprite\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_sprite}{Sprite}} \&}]{sprite }\end{DoxyParamCaption})}
+
+= Operator overload. 
+\begin{DoxyParams}{Parameters}
+{\em A} & const reference of one sprite object indicates Another sprite object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A reference of a sprite object. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=327pt]{class_sprite_a2c1d3d16ea3c94906b578430cc17f741_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_sprite_a61a068aeb1e6297264cd39f7eda1b7c7}\label{class_sprite_a61a068aeb1e6297264cd39f7eda1b7c7}} 
+\index{Sprite@{Sprite}!setAlpha@{setAlpha}}
+\index{setAlpha@{setAlpha}!Sprite@{Sprite}}
+\doxysubsubsection{\texorpdfstring{setAlpha()}{setAlpha()}}
+{\footnotesize\ttfamily void Sprite\+::set\+Alpha (\begin{DoxyParamCaption}\item[{int}]{alpha }\end{DoxyParamCaption})}
+
+Set the sprite object\textquotesingle{}s alpha value. 
+\begin{DoxyParams}{Parameters}
+{\em alpha} & An integer indicates the sprite object\textquotesingle{}s alpha value. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_sprite_a61a068aeb1e6297264cd39f7eda1b7c7_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_sprite_a97bc706aed3b9ff03c497e7c09569a85}\label{class_sprite_a97bc706aed3b9ff03c497e7c09569a85}} 
+\index{Sprite@{Sprite}!setCropRect@{setCropRect}}
+\index{setCropRect@{setCropRect}!Sprite@{Sprite}}
+\doxysubsubsection{\texorpdfstring{setCropRect()}{setCropRect()}}
+{\footnotesize\ttfamily void Sprite\+::set\+Crop\+Rect (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Rect}]{crop\+Rect }\end{DoxyParamCaption})}
+
+Set the sprite object\textquotesingle{}s crop size. 
+\begin{DoxyParams}{Parameters}
+{\em crop\+Rect} & A SDL\+\_\+\+Rect object indicates the sprite object\textquotesingle{}s crop rectangle size. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=316pt]{class_sprite_a97bc706aed3b9ff03c497e7c09569a85_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_sprite_ad6116e099a11c2c24e8ff987cc06c6e2}\label{class_sprite_ad6116e099a11c2c24e8ff987cc06c6e2}} 
+\index{Sprite@{Sprite}!setPosition@{setPosition}}
+\index{setPosition@{setPosition}!Sprite@{Sprite}}
+\doxysubsubsection{\texorpdfstring{setPosition()}{setPosition()}}
+{\footnotesize\ttfamily void Sprite\+::set\+Position (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$}]{position }\end{DoxyParamCaption})}
+
+Set the sprite object\textquotesingle{}s position. 
+\begin{DoxyParams}{Parameters}
+{\em position} & A \mbox{\hyperlink{struct_vec2}{Vec2}} of integers indicates the sprite object\textquotesingle{}s position. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_sprite_ad6116e099a11c2c24e8ff987cc06c6e2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_sprite_a2102dce1678e9a465ba0b0e6aed107d0}\label{class_sprite_a2102dce1678e9a465ba0b0e6aed107d0}} 
+\index{Sprite@{Sprite}!setPosnsizeRect@{setPosnsizeRect}}
+\index{setPosnsizeRect@{setPosnsizeRect}!Sprite@{Sprite}}
+\doxysubsubsection{\texorpdfstring{setPosnsizeRect()}{setPosnsizeRect()}}
+{\footnotesize\ttfamily void Sprite\+::set\+Posnsize\+Rect (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Rect}]{posnsize\+Rect }\end{DoxyParamCaption})}
+
+Set the sprite object\textquotesingle{}s position size. 
+\begin{DoxyParams}{Parameters}
+{\em posnsize\+Rect} & A SDL\+\_\+\+Rect object indicates the sprite object\textquotesingle{}s position size. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_sprite_a2102dce1678e9a465ba0b0e6aed107d0_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_sprite_a9ccc493ae35fee3ee485b489e38998e6}\label{class_sprite_a9ccc493ae35fee3ee485b489e38998e6}} 
+\index{Sprite@{Sprite}!setTexture@{setTexture}}
+\index{setTexture@{setTexture}!Sprite@{Sprite}}
+\doxysubsubsection{\texorpdfstring{setTexture()}{setTexture()}}
+{\footnotesize\ttfamily void Sprite\+::set\+Texture (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Texture $\ast$}]{texture }\end{DoxyParamCaption})}
+
+Set the sprite object\textquotesingle{}s texture. 
+\begin{DoxyParams}{Parameters}
+{\em texture} & A pointer to a SDL\+\_\+\+Texture object indicates the sprite object\textquotesingle{}s texture. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{class_sprite_a9ccc493ae35fee3ee485b489e38998e6_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_sprite_a668af006e8047f86d547cd83f33b0b4f}\label{class_sprite_a668af006e8047f86d547cd83f33b0b4f}} 
+\index{Sprite@{Sprite}!setupSprite@{setupSprite}}
+\index{setupSprite@{setupSprite}!Sprite@{Sprite}}
+\doxysubsubsection{\texorpdfstring{setupSprite()}{setupSprite()}}
+{\footnotesize\ttfamily void Sprite\+::setup\+Sprite (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Texture $\ast$}]{texture,  }\item[{SDL\+\_\+\+Rect}]{crop\+Rect,  }\item[{SDL\+\_\+\+Rect}]{posnsize\+Rect }\end{DoxyParamCaption})}
+
+Setup the sprite object. 
+\begin{DoxyParams}{Parameters}
+{\em texture} & A pointer to a SDL\+\_\+\+Texture object indicates the sprite object\textquotesingle{}s texture. \\
+\hline
+{\em crop\+Rect} & A SDL\+\_\+\+Rect object indicates the sprite object\textquotesingle{}s crop rectangle size. \\
+\hline
+{\em posnsize\+Rect} & A SDL\+\_\+\+Rect object indicates the sprite object\textquotesingle{}s position size. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_sprite_a668af006e8047f86d547cd83f33b0b4f_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/sprite.\+hpp\item 
+src/sprite.\+cpp\end{DoxyCompactItemize}

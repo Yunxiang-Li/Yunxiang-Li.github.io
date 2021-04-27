@@ -1,0 +1,4 @@
+<map id="Game::clearScenes" name="Game::clearScenes">
+<area shape="rect" id="node1" title="clears scene" alt="" coords="5,5,143,32"/>
+<area shape="rect" id="node2" href="$class_game.html#a4708eee84a83e5ef70a94eb26b03da9f" title="scene is poped" alt="" coords="191,5,313,32"/>
+</map>

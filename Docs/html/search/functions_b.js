@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['_7eball_71',['~Ball',['../class_ball.html#a20f2f6ac0bf648f406a8e12e63429fcd',1,'Ball']]],
-  ['_7eboard_72',['~Board',['../class_board.html#af73f45730119a1fd8f6670f53f959e68',1,'Board']]],
-  ['_7epaddle_73',['~Paddle',['../class_paddle.html#ac03c6b92f0b9cd2e67edff4c318ad030',1,'Paddle']]],
-  ['_7etext_74',['~Text',['../class_text.html#a2d49e5c280e205125b149f7777ae30c7',1,'Text']]]
+  ['operator_2b_243',['operator+',['../struct_vec2.html#a9aa941e6b74536eeef5c39e77fcc91eb',1,'Vec2']]],
+  ['operator_2d_244',['operator-',['../struct_vec2.html#a6973dae2d06d68d724eb026e8de7ec75',1,'Vec2']]],
+  ['operator_3d_245',['operator=',['../class_sprite.html#a2c1d3d16ea3c94906b578430cc17f741',1,'Sprite::operator=()'],['../struct_vec2.html#a5c50dae78841f6b33431c74850616c4d',1,'Vec2::operator=(const Vec2 &amp;vec2)']]],
+  ['operator_3d_3d_246',['operator==',['../struct_vec2.html#a5863e18c106914f43d374be651b5fdb7',1,'Vec2']]]
 ];

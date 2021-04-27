@@ -1,0 +1,4 @@
+<map id="UI::reduceHealthBarTwo" name="UI::reduceHealthBarTwo">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,167,32"/>
+<area shape="rect" id="node2" href="$class_health_bar.html#a43c87b95edc26ec081fa454c4dbc4b9a" title=" " alt="" coords="215,5,341,32"/>
+</map>

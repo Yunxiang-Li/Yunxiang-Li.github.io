@@ -1,4 +1,0 @@
-<map id="Ball::SetDirection" name="Ball::SetDirection">
-<area shape="rect" id="node1" title="Set ball&#39;s direction(2d vector)." alt="" coords="128,5,251,32"/>
-<area shape="rect" id="node2" href="$class_ball.html#ab9ce613e29fbda8012d95ecc20bf9fe3" title="One arugument construcor." alt="" coords="5,5,80,32"/>
-</map>

@@ -1,0 +1,4 @@
+<map id="UI::getPlayerTwoLives" name="UI::getPlayerTwoLives">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,155,32"/>
+<area shape="rect" id="node2" href="$class_health_bar.html#a884304034ead8b9088579a8125107fe2" title=" " alt="" coords="203,5,337,32"/>
+</map>

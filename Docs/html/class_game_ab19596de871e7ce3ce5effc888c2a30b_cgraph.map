@@ -1,9 +1,0 @@
-<map id="Game::Init" name="Game::Init">
-<area shape="rect" id="node1" title="Initialize the whole game." alt="" coords="5,136,88,163"/>
-<area shape="rect" id="node2" href="$class_resource_manager.html#a37d0e97686c031cef9b22725ba4a6005" title="Singleton pattern implementation. If the only instance of ResourceManager is not created then created..." alt="" coords="143,5,346,32"/>
-<area shape="rect" id="node3" href="$class_resource_manager.html#a66eab008a24a26c6fb49f45e07ba57f0" title="Load a single Mix_Chunk file according to its relative path." alt="" coords="136,56,353,83"/>
-<area shape="rect" id="node4" href="$class_resource_manager.html#a95b5b99cf688f8b06a070d916a57fa89" title="Load a single TTF file for its font according to its relative path." alt="" coords="141,107,348,133"/>
-<area shape="rect" id="node5" href="$class_resource_manager.html#a49144e237fc565eb5a00bca85928e731" title="Load a single TTF file for its texture according to its relative path." alt="" coords="152,158,337,199"/>
-<area shape="rect" id="node6" href="$class_resource_manager.html#a191d19d2e01d94b30baaf201aaf7ebcd" title="Load a single Mix_Music file according to its relative path." alt="" coords="137,224,352,251"/>
-<area shape="rect" id="node7" href="$class_resource_manager.html#ad7fb44c1516d43195f39b4e103193eb1" title="Load a single PNG file according to its relative path." alt="" coords="141,275,349,301"/>
-</map>

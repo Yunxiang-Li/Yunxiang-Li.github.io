@@ -1,0 +1,114 @@
+\hypertarget{class_health_bar}{}\doxysection{Health\+Bar Class Reference}
+\label{class_health_bar}\index{HealthBar@{HealthBar}}
+
+
+{\ttfamily \#include $<$health\+\_\+bar.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_health_bar_a10ec92545eccdf3e44c00062060aaf16}{Health\+Bar}} (int lives, bool player\+Two=false)
+\item 
+\mbox{\hyperlink{class_health_bar_a4a67801ba7a3b2e82e61d0cd02247771}{$\sim$\+Health\+Bar}} ()
+\item 
+void \mbox{\hyperlink{class_health_bar_a4d479fbcae49fc6141e4cd9fc5dbcd2e}{update}} ()
+\item 
+void \mbox{\hyperlink{class_health_bar_a43c87b95edc26ec081fa454c4dbc4b9a}{reduce}} ()
+\item 
+int \mbox{\hyperlink{class_health_bar_a884304034ead8b9088579a8125107fe2}{get\+Lives}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class represents all health bar behaviors. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_health_bar_a10ec92545eccdf3e44c00062060aaf16}\label{class_health_bar_a10ec92545eccdf3e44c00062060aaf16}} 
+\index{HealthBar@{HealthBar}!HealthBar@{HealthBar}}
+\index{HealthBar@{HealthBar}!HealthBar@{HealthBar}}
+\doxysubsubsection{\texorpdfstring{HealthBar()}{HealthBar()}}
+{\footnotesize\ttfamily Health\+Bar\+::\+Health\+Bar (\begin{DoxyParamCaption}\item[{int}]{lives,  }\item[{bool}]{player\+Two = {\ttfamily false} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Two arguments constructor of \mbox{\hyperlink{class_health_bar}{Health\+Bar}} class. 
+\begin{DoxyParams}{Parameters}
+{\em lives} & An integer indicates player\textquotesingle{}s lives. \\
+\hline
+{\em player\+Two} & A boolean indiactes whether the game is single player or two players. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=346pt]{class_health_bar_a10ec92545eccdf3e44c00062060aaf16_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_health_bar_a4a67801ba7a3b2e82e61d0cd02247771}\label{class_health_bar_a4a67801ba7a3b2e82e61d0cd02247771}} 
+\index{HealthBar@{HealthBar}!````~HealthBar@{$\sim$HealthBar}}
+\index{````~HealthBar@{$\sim$HealthBar}!HealthBar@{HealthBar}}
+\doxysubsubsection{\texorpdfstring{$\sim$HealthBar()}{~HealthBar()}}
+{\footnotesize\ttfamily Health\+Bar\+::$\sim$\+Health\+Bar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default destructor of \mbox{\hyperlink{class_health_bar}{Health\+Bar}} class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_health_bar_a884304034ead8b9088579a8125107fe2}\label{class_health_bar_a884304034ead8b9088579a8125107fe2}} 
+\index{HealthBar@{HealthBar}!getLives@{getLives}}
+\index{getLives@{getLives}!HealthBar@{HealthBar}}
+\doxysubsubsection{\texorpdfstring{getLives()}{getLives()}}
+{\footnotesize\ttfamily int Health\+Bar\+::get\+Lives (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Get player\textquotesingle{}s current lives. \begin{DoxyReturn}{Returns}
+An integer indicates player\textquotesingle{}s current lives. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_health_bar_a884304034ead8b9088579a8125107fe2_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_health_bar_a43c87b95edc26ec081fa454c4dbc4b9a}\label{class_health_bar_a43c87b95edc26ec081fa454c4dbc4b9a}} 
+\index{HealthBar@{HealthBar}!reduce@{reduce}}
+\index{reduce@{reduce}!HealthBar@{HealthBar}}
+\doxysubsubsection{\texorpdfstring{reduce()}{reduce()}}
+{\footnotesize\ttfamily void Health\+Bar\+::reduce (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Reduce one life. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_health_bar_a43c87b95edc26ec081fa454c4dbc4b9a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_health_bar_a4d479fbcae49fc6141e4cd9fc5dbcd2e}\label{class_health_bar_a4d479fbcae49fc6141e4cd9fc5dbcd2e}} 
+\index{HealthBar@{HealthBar}!update@{update}}
+\index{update@{update}!HealthBar@{HealthBar}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Health\+Bar\+::update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Update the health bar object. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_health_bar_a4d479fbcae49fc6141e4cd9fc5dbcd2e_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_health_bar_a4d479fbcae49fc6141e4cd9fc5dbcd2e_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/health\+\_\+bar.\+hpp\item 
+src/health\+\_\+bar.\+cpp\end{DoxyCompactItemize}

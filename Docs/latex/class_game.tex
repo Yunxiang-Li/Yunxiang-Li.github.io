@@ -2,62 +2,187 @@
 \label{class_game}\index{Game@{Game}}
 
 
-\mbox{\hyperlink{class_game}{Game}} class controls the whole process of the game.  
-
-
-
-
-{\ttfamily \#include $<$Game.\+h$>$}
+{\ttfamily \#include $<$game.\+hpp$>$}
 
 \doxysubsection*{Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{class_game_ad59df6562a58a614fda24622d3715b65}\label{class_game_ad59df6562a58a614fda24622d3715b65}} 
 \mbox{\hyperlink{class_game_ad59df6562a58a614fda24622d3715b65}{Game}} ()
-\begin{DoxyCompactList}\small\item\em Default constructor of the \mbox{\hyperlink{class_game}{Game}} class. \end{DoxyCompactList}\item 
-bool \mbox{\hyperlink{class_game_ab19596de871e7ce3ce5effc888c2a30b}{Init}} ()
-\begin{DoxyCompactList}\small\item\em Initialize the whole game. \end{DoxyCompactList}\item 
-\mbox{\Hypertarget{class_game_a96341ca5b54d90adc3ecb3bf0bcd2312}\label{class_game_a96341ca5b54d90adc3ecb3bf0bcd2312}} 
-void \mbox{\hyperlink{class_game_a96341ca5b54d90adc3ecb3bf0bcd2312}{Run}} ()
-\begin{DoxyCompactList}\small\item\em Run the main game loop. \end{DoxyCompactList}\end{DoxyCompactItemize}
-\doxysubsection*{Public Attributes}
+\item 
+\mbox{\hyperlink{class_game_ae3d112ca6e0e55150d2fdbc704474530}{$\sim$\+Game}} ()
+\item 
+void \mbox{\hyperlink{class_game_ae8638ccdb0ef3bf39a6affa30aa1258f}{start\+Game}} ()
+\item 
+void \mbox{\hyperlink{class_game_a0b35e421023e1b84b53f0b51f5e52cad}{start\+Game\+\_\+1}} ()
+\item 
+void \mbox{\hyperlink{class_game_ab58535300792d3be6b9e5e695557c1ce}{start\+Game\+\_\+2}} ()
+\item 
+void \mbox{\hyperlink{class_game_ac7d371f3f30513a4f3c57f521fac9b5f}{game\+Over}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
 \begin{DoxyCompactItemize}
 \item 
-\mbox{\Hypertarget{class_game_a44c222515dc6c82d76db678495498a2d}\label{class_game_a44c222515dc6c82d76db678495498a2d}} 
-bool {\bfseries m\+Is\+English} \{ true \}
-\item 
-\mbox{\Hypertarget{class_game_a5183c1854248c56f66a128d635db9eff}\label{class_game_a5183c1854248c56f66a128d635db9eff}} 
-bool {\bfseries m\+Is\+French} \{ false \}
-\end{DoxyCompactItemize}
+static void \mbox{\hyperlink{class_game_a4e0579bcbd9224fb918864dbe60a6192}{push\+Scene}} (\mbox{\hyperlink{class_scene}{Scene}} $\ast$scene)
+\begin{DoxyCompactList}\small\item\em scene is pushed \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_game_a4708eee84a83e5ef70a94eb26b03da9f}{pop\+Scene}} ()
+\begin{DoxyCompactList}\small\item\em scene is poped \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_game_ae68440b5f64ca56c214e63454a546984}{clear\+Scenes}} ()
+\begin{DoxyCompactList}\small\item\em clears scene \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \doxysubsection{Detailed Description}
-\mbox{\hyperlink{class_game}{Game}} class controls the whole process of the game. 
+A class represents the game\textquotesingle{}s main behaviors. 
 
-\doxysubsection{Member Function Documentation}
-\mbox{\Hypertarget{class_game_ab19596de871e7ce3ce5effc888c2a30b}\label{class_game_ab19596de871e7ce3ce5effc888c2a30b}} 
-\index{Game@{Game}!Init@{Init}}
-\index{Init@{Init}!Game@{Game}}
-\doxysubsubsection{\texorpdfstring{Init()}{Init()}}
-{\footnotesize\ttfamily bool Game\+::\+Init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_game_ad59df6562a58a614fda24622d3715b65}\label{class_game_ad59df6562a58a614fda24622d3715b65}} 
+\index{Game@{Game}!Game@{Game}}
+\index{Game@{Game}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{Game()}{Game()}}
+{\footnotesize\ttfamily Game\+::\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
 
-
-
-Initialize the whole game. 
-
-\begin{DoxyReturn}{Returns}
-A bool indicates the initialization of the game is successful or not. 
-\end{DoxyReturn}
-Here is the call graph for this function\+:\nopagebreak
+Default constructor of \mbox{\hyperlink{class_game}{Game}} class. game volume editorHere is the call graph for this function\+:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=341pt]{class_game_ab19596de871e7ce3ce5effc888c2a30b_cgraph}
+\includegraphics[width=350pt]{class_game_ad59df6562a58a614fda24622d3715b65_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_game_ae3d112ca6e0e55150d2fdbc704474530}\label{class_game_ae3d112ca6e0e55150d2fdbc704474530}} 
+\index{Game@{Game}!````~Game@{$\sim$Game}}
+\index{````~Game@{$\sim$Game}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{$\sim$Game()}{~Game()}}
+{\footnotesize\ttfamily Game\+::$\sim$\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default destructor of \mbox{\hyperlink{class_game}{Game}} class. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_ae3d112ca6e0e55150d2fdbc704474530_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_game_ae68440b5f64ca56c214e63454a546984}\label{class_game_ae68440b5f64ca56c214e63454a546984}} 
+\index{Game@{Game}!clearScenes@{clearScenes}}
+\index{clearScenes@{clearScenes}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{clearScenes()}{clearScenes()}}
+{\footnotesize\ttfamily void Game\+::clear\+Scenes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+clears scene 
+
+Clear all game scenes from the scene stack. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{class_game_ae68440b5f64ca56c214e63454a546984_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=300pt]{class_game_ae68440b5f64ca56c214e63454a546984_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_game_ac7d371f3f30513a4f3c57f521fac9b5f}\label{class_game_ac7d371f3f30513a4f3c57f521fac9b5f}} 
+\index{Game@{Game}!gameOver@{gameOver}}
+\index{gameOver@{gameOver}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{gameOver()}{gameOver()}}
+{\footnotesize\ttfamily void Game\+::game\+Over (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Set game over flag. \mbox{\Hypertarget{class_game_a4708eee84a83e5ef70a94eb26b03da9f}\label{class_game_a4708eee84a83e5ef70a94eb26b03da9f}} 
+\index{Game@{Game}!popScene@{popScene}}
+\index{popScene@{popScene}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{popScene()}{popScene()}}
+{\footnotesize\ttfamily void Game\+::pop\+Scene (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+scene is poped 
+
+Pop the current game scene from the scene stack. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_a4708eee84a83e5ef70a94eb26b03da9f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_game_a4e0579bcbd9224fb918864dbe60a6192}\label{class_game_a4e0579bcbd9224fb918864dbe60a6192}} 
+\index{Game@{Game}!pushScene@{pushScene}}
+\index{pushScene@{pushScene}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{pushScene()}{pushScene()}}
+{\footnotesize\ttfamily void Game\+::push\+Scene (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_scene}{Scene}} $\ast$}]{scene }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+scene is pushed 
+
+Push the current game scene into the scene stack. 
+\begin{DoxyParams}{Parameters}
+{\em scene} & A pointer to a \mbox{\hyperlink{class_scene}{Scene}} object indicates the current game scene. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_a4e0579bcbd9224fb918864dbe60a6192_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_game_ae8638ccdb0ef3bf39a6affa30aa1258f}\label{class_game_ae8638ccdb0ef3bf39a6affa30aa1258f}} 
+\index{Game@{Game}!startGame@{startGame}}
+\index{startGame@{startGame}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{startGame()}{startGame()}}
+{\footnotesize\ttfamily void Game\+::start\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Start the default game. ends gameHere is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_ae8638ccdb0ef3bf39a6affa30aa1258f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_game_a0b35e421023e1b84b53f0b51f5e52cad}\label{class_game_a0b35e421023e1b84b53f0b51f5e52cad}} 
+\index{Game@{Game}!startGame\_1@{startGame\_1}}
+\index{startGame\_1@{startGame\_1}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{startGame\_1()}{startGame\_1()}}
+{\footnotesize\ttfamily void Game\+::start\+Game\+\_\+1 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Start the level 2 game. ends gameHere is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_a0b35e421023e1b84b53f0b51f5e52cad_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_game_ab58535300792d3be6b9e5e695557c1ce}\label{class_game_ab58535300792d3be6b9e5e695557c1ce}} 
+\index{Game@{Game}!startGame\_2@{startGame\_2}}
+\index{startGame\_2@{startGame\_2}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{startGame\_2()}{startGame\_2()}}
+{\footnotesize\ttfamily void Game\+::start\+Game\+\_\+2 (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Start the level 3 game. ends gameHere is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_game_ab58535300792d3be6b9e5e695557c1ce_cgraph}
 \end{center}
 \end{figure}
 
 
 The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
 \item 
-include/Game.\+h\item 
-src/Game.\+cpp\end{DoxyCompactItemize}
+include/game.\+hpp\item 
+src/game.\+cpp\end{DoxyCompactItemize}

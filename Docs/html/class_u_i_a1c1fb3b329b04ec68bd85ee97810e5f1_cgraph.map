@@ -1,0 +1,8 @@
+<map id="UI::drawScoreBoard" name="UI::drawScoreBoard">
+<area shape="rect" id="node1" title=" " alt="" coords="5,81,143,108"/>
+<area shape="rect" id="node2" href="$class_label.html#a8a2698f3beff0d54bd5ea721cca8c388" title=" " alt="" coords="219,5,332,32"/>
+<area shape="rect" id="node3" href="$class_label.html#ae23e7594687dcefe9fceff58110caf4f" title=" " alt="" coords="222,56,329,83"/>
+<area shape="rect" id="node4" href="$class_label.html#ac6bb851ea63be76474897e64455c1584" title=" " alt="" coords="214,107,337,133"/>
+<area shape="rect" id="node5" href="$class_game_utilities.html#abf7df43f1aa21a7d01a37728bdbe7a6c" title=" " alt="" coords="191,157,360,184"/>
+<area shape="rect" id="node6" href="$class_s_d_l___components.html#ac70cfeabfe8b8caf5ad58bfd255c906b" title=" " alt="" coords="408,157,613,184"/>
+</map>

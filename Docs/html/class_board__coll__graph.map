@@ -1,4 +1,0 @@
-<map id="Board" name="Board">
-<area shape="rect" id="node1" title="One argument constructor." alt="" coords="5,80,61,107"/>
-<area shape="rect" id="node2" href="$class_entity.html" title="The basic component of each real object in the game. Entity is actually a pure virtual class." alt="" coords="5,5,61,32"/>
-</map>

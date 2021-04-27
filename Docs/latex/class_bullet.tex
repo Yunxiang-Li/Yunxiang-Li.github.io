@@ -1,0 +1,169 @@
+\hypertarget{class_bullet}{}\doxysection{Bullet Class Reference}
+\label{class_bullet}\index{Bullet@{Bullet}}
+
+
+{\ttfamily \#include $<$bullet.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_bullet_a18d597e05338715a2f7a6f56b3faddf2}{Bullet}} (\mbox{\hyperlink{class_sprite}{Sprite}} $\ast$sprite, \mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ pos, bool travel\+Up=true)
+\item 
+\mbox{\hyperlink{class_bullet_aaeb5cb41d7db89f49007b08b41f1bfcf}{$\sim$\+Bullet}} ()
+\item 
+void \mbox{\hyperlink{class_bullet_a18d8783b9b83298fd1f70b8bb5c1f06f}{update}} (float delta\+Time)
+\item 
+bool \mbox{\hyperlink{class_bullet_a3a629efb3b36534422c4887c6934ee92}{is\+Destroyed}} () const
+\item 
+\mbox{\hyperlink{class_sprite}{Sprite}} $\ast$ \mbox{\hyperlink{class_bullet_ade211422ba104b64a38aa5a2933500ca}{get\+Sprite}} () const
+\item 
+void \mbox{\hyperlink{class_bullet_a688d6b75822e4cab5f1cbcdd1511263a}{destroy}} ()
+\item 
+void \mbox{\hyperlink{class_bullet_ab720070ca86fa561db532c8623c61723}{set\+Position}} (\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$ pos)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+A class represents all bullets\textquotesingle{} behaviors. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_bullet_a18d597e05338715a2f7a6f56b3faddf2}\label{class_bullet_a18d597e05338715a2f7a6f56b3faddf2}} 
+\index{Bullet@{Bullet}!Bullet@{Bullet}}
+\index{Bullet@{Bullet}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{Bullet()}{Bullet()}}
+{\footnotesize\ttfamily Bullet\+::\+Bullet (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_sprite}{Sprite}} $\ast$}]{sprite,  }\item[{\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$}]{pos,  }\item[{bool}]{travel\+Up = {\ttfamily true} }\end{DoxyParamCaption})}
+
+Three arguments constructor of \mbox{\hyperlink{class_bullet}{Bullet}} class. 
+\begin{DoxyParams}{Parameters}
+{\em sprite} & A pointer to a \mbox{\hyperlink{class_sprite}{Sprite}} object indicates the bullet\textquotesingle{}s sprite. \\
+\hline
+{\em pos} & A \mbox{\hyperlink{struct_vec2}{Vec2}} of integers indicates the bullet\textquotesingle{}s position. \\
+\hline
+{\em travel\+Up} & A boolean value indicates whether the bullet direction is up or not. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=285pt]{class_bullet_a18d597e05338715a2f7a6f56b3faddf2_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_bullet_aaeb5cb41d7db89f49007b08b41f1bfcf}\label{class_bullet_aaeb5cb41d7db89f49007b08b41f1bfcf}} 
+\index{Bullet@{Bullet}!````~Bullet@{$\sim$Bullet}}
+\index{````~Bullet@{$\sim$Bullet}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{$\sim$Bullet()}{~Bullet()}}
+{\footnotesize\ttfamily Bullet\+::$\sim$\+Bullet (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Default destructor of \mbox{\hyperlink{class_bullet}{Bullet}} class. 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_bullet_a688d6b75822e4cab5f1cbcdd1511263a}\label{class_bullet_a688d6b75822e4cab5f1cbcdd1511263a}} 
+\index{Bullet@{Bullet}!destroy@{destroy}}
+\index{destroy@{destroy}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{destroy()}{destroy()}}
+{\footnotesize\ttfamily void Bullet\+::destroy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+A helper function for bullet\textquotesingle{}s destructor. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_bullet_a688d6b75822e4cab5f1cbcdd1511263a_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_bullet_ade211422ba104b64a38aa5a2933500ca}\label{class_bullet_ade211422ba104b64a38aa5a2933500ca}} 
+\index{Bullet@{Bullet}!getSprite@{getSprite}}
+\index{getSprite@{getSprite}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{getSprite()}{getSprite()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_sprite}{Sprite}} $\ast$ Bullet\+::get\+Sprite (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Getter function for sprite. \begin{DoxyReturn}{Returns}
+A pointer to a \mbox{\hyperlink{class_sprite}{Sprite}} object indicates the bullet\textquotesingle{}s sprite. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_bullet_ade211422ba104b64a38aa5a2933500ca_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_bullet_a3a629efb3b36534422c4887c6934ee92}\label{class_bullet_a3a629efb3b36534422c4887c6934ee92}} 
+\index{Bullet@{Bullet}!isDestroyed@{isDestroyed}}
+\index{isDestroyed@{isDestroyed}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{isDestroyed()}{isDestroyed()}}
+{\footnotesize\ttfamily bool Bullet\+::is\+Destroyed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Check if hit enemy is destroyed. \begin{DoxyReturn}{Returns}
+A boolean value indicates whether the hit enemy is destroyed or not. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_bullet_a3a629efb3b36534422c4887c6934ee92_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_bullet_ab720070ca86fa561db532c8623c61723}\label{class_bullet_ab720070ca86fa561db532c8623c61723}} 
+\index{Bullet@{Bullet}!setPosition@{setPosition}}
+\index{setPosition@{setPosition}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{setPosition()}{setPosition()}}
+{\footnotesize\ttfamily void Bullet\+::set\+Position (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_vec2}{Vec2}}$<$ int $>$}]{pos }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=309pt]{class_bullet_ab720070ca86fa561db532c8623c61723_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_bullet_ab720070ca86fa561db532c8623c61723_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_bullet_a18d8783b9b83298fd1f70b8bb5c1f06f}\label{class_bullet_a18d8783b9b83298fd1f70b8bb5c1f06f}} 
+\index{Bullet@{Bullet}!update@{update}}
+\index{update@{update}!Bullet@{Bullet}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Bullet\+::update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+Update the bullet\textquotesingle{}s direction according to delta time. 
+\begin{DoxyParams}{Parameters}
+{\em delta\+Time} & A float indicates the delta time. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_bullet_a18d8783b9b83298fd1f70b8bb5c1f06f_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_bullet_a18d8783b9b83298fd1f70b8bb5c1f06f_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/bullet.\+hpp\item 
+src/bullet.\+cpp\end{DoxyCompactItemize}

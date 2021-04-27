@@ -1,0 +1,21 @@
+<map id="PlayScene::handleSpecialEnemy" name="PlayScene::handleSpecialEnemy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,251,180,293"/>
+<area shape="rect" id="node2" href="$class_game_utilities.html#ad43998ed9acbd70688f3813c36802454" title=" " alt="" coords="228,5,403,32"/>
+<area shape="rect" id="node3" href="$class_bullet.html#a688d6b75822e4cab5f1cbcdd1511263a" title=" " alt="" coords="262,56,369,83"/>
+<area shape="rect" id="node4" href="$class_player.html#a387006e0389129033279784fc9ae0041" title=" " alt="" coords="253,107,378,133"/>
+<area shape="rect" id="node5" href="$class_sprite.html#acd89f4d31b565de8526c6615d751760a" title=" " alt="" coords="234,157,397,184"/>
+<area shape="rect" id="node6" href="$class_game_utilities.html#a63fffee079d6a5dc7775a28edf086dfa" title=" " alt="" coords="235,208,395,235"/>
+<area shape="rect" id="node7" href="$class_special_monster.html#a2aba687c6fe8d4384dd1b408b42b07ca" title=" " alt="" coords="233,259,397,285"/>
+<area shape="rect" id="node9" href="$class_bullet.html#ade211422ba104b64a38aa5a2933500ca" title=" " alt="" coords="258,309,373,336"/>
+<area shape="rect" id="node10" href="$class_special_monster.html#a99971c828bcbbb9f9f08eaf034cce771" title=" " alt="" coords="235,360,395,387"/>
+<area shape="rect" id="node11" href="$class_special_monster.html#ae17c8816259001b94136d662166998ca" title=" " alt="" coords="247,411,383,437"/>
+<area shape="rect" id="node12" href="$class_game_utilities.html#ab24c5ba200516fd2c9e60081d40092e4" title=" " alt="" coords="235,461,395,488"/>
+<area shape="rect" id="node13" href="$class_special_monster.html#aa14635967de34310fe8f3b1ae293ff30" title=" " alt="" coords="236,512,395,539"/>
+<area shape="rect" id="node8" href="$class_enemy.html#a6f2cbc0e4193431f7003b6f5029dc427" title=" " alt="" coords="481,327,595,353"/>
+<area shape="rect" id="node14" href="$class_game_utilities.html#ad80490f5bdb18a3a72eff7decdd3a5d8" title=" " alt="" coords="451,446,625,487"/>
+<area shape="rect" id="node15" href="$class_enemy.html#a2de6bc368101053a7e6d603bcd3f6ec2" title=" " alt="" coords="470,512,606,539"/>
+<area shape="rect" id="node16" href="$class_enemy.html#a0b425edca284f72d0684dd130ad6cf84" title=" " alt="" coords="483,563,593,589"/>
+<area shape="rect" id="node17" href="$class_sprite.html#ae6f73dfb04322263eb83b4e464f4838a" title=" " alt="" coords="693,537,783,564"/>
+<area shape="rect" id="node19" href="$class_sprite.html#ad6116e099a11c2c24e8ff987cc06c6e2" title=" " alt="" coords="673,588,803,615"/>
+<area shape="rect" id="node18" href="$class_s_d_l___components.html#ac70cfeabfe8b8caf5ad58bfd255c906b" title=" " alt="" coords="851,537,1056,564"/>
+</map>

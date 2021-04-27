@@ -1,4 +1,6 @@
 var searchData=
 [
-  ['entity_48',['Entity',['../class_entity.html#acb01d7c2e027979a2cada6fa9c943240',1,'Entity']]]
+  ['clearplayscene_169',['clearPlayScene',['../class_play_scene.html#a34e74ac2be502fa32e1ef0558d8e2c2f',1,'PlayScene']]],
+  ['clearscenes_170',['clearScenes',['../class_game.html#ae68440b5f64ca56c214e63454a546984',1,'Game']]],
+  ['close_171',['close',['../class_game_utilities.html#ad859ba3ac877b4f6210864d9c632e78d',1,'GameUtilities::close()'],['../class_s_d_l___components.html#a107c270240778f188beaab1ac9c62273',1,'SDL_Components::close()']]]
 ];

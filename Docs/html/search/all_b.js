@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['update_30',['Update',['../class_ball.html#af6db0c50a2974beb4c27cb29c9a0e2df',1,'Ball::Update()'],['../class_board.html#aa1fb89db8206ace3f973f2f911af4125',1,'Board::Update()'],['../class_entity.html#abe791a71d714766000f79619f1b5e99f',1,'Entity::Update()'],['../class_paddle.html#a8a3aa86f567315423f92ecfb5fd3b6f5',1,'Paddle::Update()'],['../class_text.html#a5928cae2d2332d148e169b75bed8631c',1,'Text::Update()']]]
+  ['operator_2b_79',['operator+',['../struct_vec2.html#a9aa941e6b74536eeef5c39e77fcc91eb',1,'Vec2']]],
+  ['operator_2d_80',['operator-',['../struct_vec2.html#a6973dae2d06d68d724eb026e8de7ec75',1,'Vec2']]],
+  ['operator_3d_81',['operator=',['../class_sprite.html#a2c1d3d16ea3c94906b578430cc17f741',1,'Sprite::operator=()'],['../struct_vec2.html#a5c50dae78841f6b33431c74850616c4d',1,'Vec2::operator=(const Vec2 &amp;vec2)']]],
+  ['operator_3d_3d_82',['operator==',['../struct_vec2.html#a5863e18c106914f43d374be651b5fdb7',1,'Vec2']]]
 ];

@@ -1,0 +1,368 @@
+\hypertarget{class_play_scene}{}\doxysection{Play\+Scene Class Reference}
+\label{class_play_scene}\index{PlayScene@{PlayScene}}
+
+
+{\ttfamily \#include $<$play\+\_\+scene.\+hpp$>$}
+
+
+
+Inheritance diagram for Play\+Scene\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=254pt]{class_play_scene__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Play\+Scene\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_play_scene__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_play_scene_af82d58d8cca546bfd839355bafef4a6a}{Play\+Scene}} ()
+\item 
+virtual \mbox{\hyperlink{class_play_scene_a9b69e12f7c0c2526d9115a68fb3c2b2a}{$\sim$\+Play\+Scene}} () override
+\item 
+virtual void \mbox{\hyperlink{class_play_scene_aa857b8073b832204d8e96b9b507a2ddc}{update}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_play_scene_a93b22a7d959d4cd1190140f7915d76db}{handle\+Delta\+Time}} ()
+\item 
+virtual bool \mbox{\hyperlink{class_play_scene_add32499eb9ff870cf410b8f414002061}{handle\+Input}} ()
+\item 
+virtual void \mbox{\hyperlink{class_play_scene_a34e74ac2be502fa32e1ef0558d8e2c2f}{clear\+Play\+Scene}} ()
+\item 
+void \mbox{\hyperlink{class_play_scene_a913de265680a480dceb332e9013a9e0b}{handle\+Barricades}} ()
+\item 
+virtual void \mbox{\hyperlink{class_play_scene_a3d062f7587b5619e20e78ea28fd11520}{handle\+Updating}} ()
+\item 
+void \mbox{\hyperlink{class_play_scene_ac45be9a7257e5d171b15366899824079}{handle\+Player}} ()
+\item 
+virtual bool \mbox{\hyperlink{class_play_scene_a726da73ff5e1e071e74e1a6a6d485879}{handle\+Dead\+Player}} ()
+\item 
+bool \mbox{\hyperlink{class_play_scene_a518cf371e95c235dd2cefc55b12224c9}{handle\+Dead\+Horde}} ()
+\item 
+void \mbox{\hyperlink{class_play_scene_a7a35535ed2567b83c46fed0b89ffdc96}{handle\+Special\+Enemy}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_play_scene_a1bebcac99bc46ed9a4bef2e1ca2fb820}\label{class_play_scene_a1bebcac99bc46ed9a4bef2e1ca2fb820}} 
+\mbox{\hyperlink{class_u_i}{UI}} $\ast$ {\bfseries \+\_\+ui}
+\item 
+\mbox{\Hypertarget{class_play_scene_ad1b6962e4a2304f2aa19db68ba662bb2}\label{class_play_scene_ad1b6962e4a2304f2aa19db68ba662bb2}} 
+\mbox{\hyperlink{class_label}{Label}} $\ast$ {\bfseries \+\_\+you\+Lose\+Label}
+\item 
+\mbox{\Hypertarget{class_play_scene_ae089f2f27a3c152a538a2087be147e22}\label{class_play_scene_ae089f2f27a3c152a538a2087be147e22}} 
+\mbox{\hyperlink{class_label}{Label}} $\ast$ {\bfseries \+\_\+you\+Win\+Label}
+\item 
+\mbox{\Hypertarget{class_play_scene_afbed1868a46eb5aae4ea489e072279a1}\label{class_play_scene_afbed1868a46eb5aae4ea489e072279a1}} 
+\mbox{\hyperlink{class_enemy_horde}{Enemy\+Horde}} $\ast$ {\bfseries \+\_\+enemy\+Horde}
+\item 
+\mbox{\Hypertarget{class_play_scene_a581d036e07c1919166d9131c12156f78}\label{class_play_scene_a581d036e07c1919166d9131c12156f78}} 
+\mbox{\hyperlink{class_special_monster}{Special\+Monster}} $\ast$ {\bfseries \+\_\+special\+Enemy}
+\item 
+\mbox{\Hypertarget{class_play_scene_a163b4a78714ca456945739ac7623219c}\label{class_play_scene_a163b4a78714ca456945739ac7623219c}} 
+Mix\+\_\+\+Music $\ast$ {\bfseries \+\_\+intro\+Music}
+\item 
+\mbox{\Hypertarget{class_play_scene_a2b789d715b3393470583a2a58afa882e}\label{class_play_scene_a2b789d715b3393470583a2a58afa882e}} 
+\mbox{\hyperlink{class_barricades}{Barricades}} $\ast$ {\bfseries \+\_\+barricades}
+\item 
+\mbox{\Hypertarget{class_play_scene_a3bcb18876e78db65267ed13d41379641}\label{class_play_scene_a3bcb18876e78db65267ed13d41379641}} 
+\mbox{\hyperlink{class_player}{Player}} $\ast$ {\bfseries \+\_\+player}
+\item 
+\mbox{\Hypertarget{class_play_scene_a2de7b70aa1797e63ff6faaed0bf410d2}\label{class_play_scene_a2de7b70aa1797e63ff6faaed0bf410d2}} 
+bool {\bfseries \+\_\+is\+Player\+Moving\+Right}
+\item 
+\mbox{\Hypertarget{class_play_scene_a5f4ef9ad1936ca546ecac548f742788e}\label{class_play_scene_a5f4ef9ad1936ca546ecac548f742788e}} 
+bool {\bfseries \+\_\+is\+Player\+Moving\+Left}
+\item 
+\mbox{\Hypertarget{class_play_scene_ad45f0bb0d1570e3c940f5f4517ef8c62}\label{class_play_scene_ad45f0bb0d1570e3c940f5f4517ef8c62}} 
+bool {\bfseries \+\_\+is\+Player\+Shooting}
+\item 
+\mbox{\Hypertarget{class_play_scene_aef328b4f231a3b9d671551a792c0614d}\label{class_play_scene_aef328b4f231a3b9d671551a792c0614d}} 
+long {\bfseries \+\_\+now}
+\item 
+\mbox{\Hypertarget{class_play_scene_aaad230f03556ad87c50063dd0d918f8d}\label{class_play_scene_aaad230f03556ad87c50063dd0d918f8d}} 
+long {\bfseries \+\_\+last}
+\item 
+\mbox{\Hypertarget{class_play_scene_a06bd3fe35ac5e03c077cac2af4fc91c7}\label{class_play_scene_a06bd3fe35ac5e03c077cac2af4fc91c7}} 
+float {\bfseries \+\_\+delta\+Time}
+\item 
+\mbox{\Hypertarget{class_play_scene_a1c940469cc5d003359485a71447869bd}\label{class_play_scene_a1c940469cc5d003359485a71447869bd}} 
+int {\bfseries \+\_\+last\+Score}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+An intermediate class represent a scene for main play. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_play_scene_af82d58d8cca546bfd839355bafef4a6a}\label{class_play_scene_af82d58d8cca546bfd839355bafef4a6a}} 
+\index{PlayScene@{PlayScene}!PlayScene@{PlayScene}}
+\index{PlayScene@{PlayScene}!PlayScene@{PlayScene}}
+\doxysubsubsection{\texorpdfstring{PlayScene()}{PlayScene()}}
+{\footnotesize\ttfamily Play\+Scene\+::\+Play\+Scene (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructor of \mbox{\hyperlink{class_play_scene}{Play\+Scene}} class. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_play_scene_af82d58d8cca546bfd839355bafef4a6a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_play_scene_a9b69e12f7c0c2526d9115a68fb3c2b2a}\label{class_play_scene_a9b69e12f7c0c2526d9115a68fb3c2b2a}} 
+\index{PlayScene@{PlayScene}!````~PlayScene@{$\sim$PlayScene}}
+\index{````~PlayScene@{$\sim$PlayScene}!PlayScene@{PlayScene}}
+\doxysubsubsection{\texorpdfstring{$\sim$PlayScene()}{~PlayScene()}}
+{\footnotesize\ttfamily Play\+Scene\+::$\sim$\+Play\+Scene (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+Override destructor of \mbox{\hyperlink{class_play_scene}{Play\+Scene}} class. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_play_scene_a9b69e12f7c0c2526d9115a68fb3c2b2a_cgraph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_play_scene_a34e74ac2be502fa32e1ef0558d8e2c2f}\label{class_play_scene_a34e74ac2be502fa32e1ef0558d8e2c2f}} 
+\index{PlayScene@{PlayScene}!clearPlayScene@{clearPlayScene}}
+\index{clearPlayScene@{clearPlayScene}!PlayScene@{PlayScene}}
+\doxysubsubsection{\texorpdfstring{clearPlayScene()}{clearPlayScene()}}
+{\footnotesize\ttfamily void Play\+Scene\+::clear\+Play\+Scene (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+Clear the current play scene. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_play_scene_a34e74ac2be502fa32e1ef0558d8e2c2f_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_play_scene_a913de265680a480dceb332e9013a9e0b}\label{class_play_scene_a913de265680a480dceb332e9013a9e0b}} 
+\index{PlayScene@{PlayScene}!handleBarricades@{handleBarricades}}
+\index{handleBarricades@{handleBarricades}!PlayScene@{PlayScene}}
+\doxysubsubsection{\texorpdfstring{handleBarricades()}{handleBarricades()}}
+{\footnotesize\ttfamily void Play\+Scene\+::handle\+Barricades (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Handle barricades. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_play_scene_a913de265680a480dceb332e9013a9e0b_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_play_scene_a913de265680a480dceb332e9013a9e0b_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_play_scene_a518cf371e95c235dd2cefc55b12224c9}\label{class_play_scene_a518cf371e95c235dd2cefc55b12224c9}} 
+\index{PlayScene@{PlayScene}!handleDeadHorde@{handleDeadHorde}}
+\index{handleDeadHorde@{handleDeadHorde}!PlayScene@{PlayScene}}
+\doxysubsubsection{\texorpdfstring{handleDeadHorde()}{handleDeadHorde()}}
+{\footnotesize\ttfamily bool Play\+Scene\+::handle\+Dead\+Horde (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Handle enemy horde\textquotesingle{}s death situation. \begin{DoxyReturn}{Returns}
+A bool indicates whether the enemy horde is dead or not. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_play_scene_a518cf371e95c235dd2cefc55b12224c9_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_play_scene_a518cf371e95c235dd2cefc55b12224c9_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_play_scene_a726da73ff5e1e071e74e1a6a6d485879}\label{class_play_scene_a726da73ff5e1e071e74e1a6a6d485879}} 
+\index{PlayScene@{PlayScene}!handleDeadPlayer@{handleDeadPlayer}}
+\index{handleDeadPlayer@{handleDeadPlayer}!PlayScene@{PlayScene}}
+\doxysubsubsection{\texorpdfstring{handleDeadPlayer()}{handleDeadPlayer()}}
+{\footnotesize\ttfamily bool Play\+Scene\+::handle\+Dead\+Player (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+Handle player\textquotesingle{}s death situation. \begin{DoxyReturn}{Returns}
+A bool indicates whether the player is dead or not. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_play_scene_a726da73ff5e1e071e74e1a6a6d485879_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_play_scene_a726da73ff5e1e071e74e1a6a6d485879_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_play_scene_a93b22a7d959d4cd1190140f7915d76db}\label{class_play_scene_a93b22a7d959d4cd1190140f7915d76db}} 
+\index{PlayScene@{PlayScene}!handleDeltaTime@{handleDeltaTime}}
+\index{handleDeltaTime@{handleDeltaTime}!PlayScene@{PlayScene}}
+\doxysubsubsection{\texorpdfstring{handleDeltaTime()}{handleDeltaTime()}}
+{\footnotesize\ttfamily void Play\+Scene\+::handle\+Delta\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Handle delta time. Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_play_scene_a93b22a7d959d4cd1190140f7915d76db_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_play_scene_add32499eb9ff870cf410b8f414002061}\label{class_play_scene_add32499eb9ff870cf410b8f414002061}} 
+\index{PlayScene@{PlayScene}!handleInput@{handleInput}}
+\index{handleInput@{handleInput}!PlayScene@{PlayScene}}
+\doxysubsubsection{\texorpdfstring{handleInput()}{handleInput()}}
+{\footnotesize\ttfamily bool Play\+Scene\+::handle\+Input (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+Handle player inputs. \begin{DoxyReturn}{Returns}
+A bool indicates whether the handle is successful or not. 
+\end{DoxyReturn}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_play_scene_add32499eb9ff870cf410b8f414002061_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_play_scene_add32499eb9ff870cf410b8f414002061_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_play_scene_ac45be9a7257e5d171b15366899824079}\label{class_play_scene_ac45be9a7257e5d171b15366899824079}} 
+\index{PlayScene@{PlayScene}!handlePlayer@{handlePlayer}}
+\index{handlePlayer@{handlePlayer}!PlayScene@{PlayScene}}
+\doxysubsubsection{\texorpdfstring{handlePlayer()}{handlePlayer()}}
+{\footnotesize\ttfamily void Play\+Scene\+::handle\+Player (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Handle player\textquotesingle{}s conditions. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_play_scene_ac45be9a7257e5d171b15366899824079_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_play_scene_ac45be9a7257e5d171b15366899824079_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_play_scene_a7a35535ed2567b83c46fed0b89ffdc96}\label{class_play_scene_a7a35535ed2567b83c46fed0b89ffdc96}} 
+\index{PlayScene@{PlayScene}!handleSpecialEnemy@{handleSpecialEnemy}}
+\index{handleSpecialEnemy@{handleSpecialEnemy}!PlayScene@{PlayScene}}
+\doxysubsubsection{\texorpdfstring{handleSpecialEnemy()}{handleSpecialEnemy()}}
+{\footnotesize\ttfamily void Play\+Scene\+::handle\+Special\+Enemy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+Handle special enemy(wow factor). Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_play_scene_a7a35535ed2567b83c46fed0b89ffdc96_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_play_scene_a7a35535ed2567b83c46fed0b89ffdc96_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_play_scene_a3d062f7587b5619e20e78ea28fd11520}\label{class_play_scene_a3d062f7587b5619e20e78ea28fd11520}} 
+\index{PlayScene@{PlayScene}!handleUpdating@{handleUpdating}}
+\index{handleUpdating@{handleUpdating}!PlayScene@{PlayScene}}
+\doxysubsubsection{\texorpdfstring{handleUpdating()}{handleUpdating()}}
+{\footnotesize\ttfamily void Play\+Scene\+::handle\+Updating (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+Handle update. Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_play_scene_a3d062f7587b5619e20e78ea28fd11520_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_play_scene_a3d062f7587b5619e20e78ea28fd11520_icgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{class_play_scene_aa857b8073b832204d8e96b9b507a2ddc}\label{class_play_scene_aa857b8073b832204d8e96b9b507a2ddc}} 
+\index{PlayScene@{PlayScene}!update@{update}}
+\index{update@{update}!PlayScene@{PlayScene}}
+\doxysubsubsection{\texorpdfstring{update()}{update()}}
+{\footnotesize\ttfamily void Play\+Scene\+::update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Update function of \mbox{\hyperlink{class_play_scene}{Play\+Scene}} class. 
+
+Implements \mbox{\hyperlink{class_scene_a7faff47f5c1b1ebc986f768c9b9732ec}{Scene}}.
+
+
+
+Reimplemented in \mbox{\hyperlink{class_play_s_p_scene_a41d003fc751311168bc3d5cf47c35e22}{Play\+SPScene}}, and \mbox{\hyperlink{class_play_m_p_scene_a532bb78463990e5030c9033bfcb1cee9}{Play\+MPScene}}.
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_play_scene_aa857b8073b832204d8e96b9b507a2ddc_cgraph}
+\end{center}
+\end{figure}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=328pt]{class_play_scene_aa857b8073b832204d8e96b9b507a2ddc_icgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/play\+\_\+scene.\+hpp\item 
+src/play\+\_\+scene.\+cpp\end{DoxyCompactItemize}

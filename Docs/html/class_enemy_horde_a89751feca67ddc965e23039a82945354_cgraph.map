@@ -1,0 +1,6 @@
+<map id="EnemyHorde::isABulletColliding" name="EnemyHorde::isABulletColliding">
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,212,83"/>
+<area shape="rect" id="node2" href="$class_game_utilities.html#ad43998ed9acbd70688f3813c36802454" title=" " alt="" coords="260,5,435,32"/>
+<area shape="rect" id="node3" href="$class_sprite.html#acd89f4d31b565de8526c6615d751760a" title=" " alt="" coords="266,56,429,83"/>
+<area shape="rect" id="node4" href="$class_bullet.html#ade211422ba104b64a38aa5a2933500ca" title=" " alt="" coords="290,107,405,133"/>
+</map>
