@@ -1,0 +1,6 @@
+<map id="StageStruct" name="StageStruct">
+<area shape="rect" id="node1" title=" " alt="" coords="200,170,291,197"/>
+<area shape="rect" id="node2" href="$struct_explosion_struct.html" title=" " alt="" coords="5,8,120,34"/>
+<area shape="rect" id="node3" href="$struct_debris_struct.html" title=" " alt="" coords="198,8,293,34"/>
+<area shape="rect" id="node4" href="$struct_entity_struct.html" title=" " alt="" coords="371,8,461,34"/>
+</map>
