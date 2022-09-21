@@ -53,14 +53,13 @@ export default [
         <h2>Main Features</h2>
         </header>
         <ul>
-        <li>Use Virtual base class and inheritance to implement different game state classes </li>
         <li>Apply std::stack based finite state machine to handle multiple game states</li>
+        <li>Use Virtual base class and inheritance to implement different game state classes </li>
         <li>Create the TextureManager class with smart pointers and follow Singleton pattern</li>
         <li>Make use of enum class and a seperate AnimationHandler class to create all 7 types of tile objects' animation</li>
-        <li>Highscore table can be saved and loaded as a txt file</li>
         <li>Utilize DFS and isometric structure simulated by 3X3 tile objects to split the map as multiple distinct regions</li>
         <li>Implement Gui system with seperate Gui Entry, Gui Style and main Gui components</li>
-        <li>Instrument game map data which can be saved and loaded as a dat file</li>
+        <li>Perform game map data as a dat file which can be saved and loaded</li>
         </ul>
     </div>
 
