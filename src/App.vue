@@ -29,6 +29,8 @@ export default Vue.extend({
 // Preload heavy images or gifs that are used in other pages
 Helpers.preloadImages([
   "img/projects/SDL2_Shooter/SDL2_Shooter_GIF.gif",
+  "img/projects/SDL2_Shooter/SDL2_Shooter_Thumbnail.jpg",
+  "img/projects/SFML_CityBuilder/SFML_CityBuilder_thumbnail.jpg",
   "img/projects/project-2-icon.png",
   "img/projects/project-3-icon.png"
 ]);

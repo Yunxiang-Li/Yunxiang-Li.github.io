@@ -45,7 +45,7 @@ export default [
         <br/>You can learn more about project details and source code from <a target="_blank" href="https://github.com/Yunxiang-Li/SFML_Isometric_CityBuilder/blob/main/README.md">related github repo</a>.
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/oS8c83wGDAQ" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" src="https://www.youtube.com/embed/AVJ8JVTjeds" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="paragraph">
