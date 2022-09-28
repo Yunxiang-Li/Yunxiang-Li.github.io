@@ -1,0 +1,4 @@
+<map id="GameActor::jump" name="GameActor::jump">
+<area shape="rect" id="node1" title=" " alt="" coords="220,5,344,32"/>
+<area shape="rect" id="node2" href="$class_jump_command.html#ab35ee33aa1c79ad9ddcd84c2788231ea" title=" " alt="" coords="5,5,172,32"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="GameActor::fireGun" name="GameActor::fireGun">
+<area shape="rect" id="node1" title=" " alt="" coords="211,5,348,32"/>
+<area shape="rect" id="node2" href="$class_fire_command.html#a16c9308f5eb9fb060a9665c496bb2ec4" title=" " alt="" coords="5,5,163,32"/>
+</map>
