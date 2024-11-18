@@ -2,7 +2,7 @@
   <div class="footer">
     
     <div class="left"> Portfolio by Yunxiang Li</div>
-    <div class="right">Reach me <router-link to="/contact">through here</router-link></div>
+    <div class="right"><router-link to="/contact">Reach out to me</router-link></div>
   </div>
 </template>
 

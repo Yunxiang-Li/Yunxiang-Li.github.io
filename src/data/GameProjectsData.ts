@@ -1,19 +1,65 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-1", "2D Shooter(SDL2)", "img/projects/SDL2_Shooter/SDL2_Shooter_Thumbnail.jpg", 
+    new ProjectData("project-1", "Unreal5 GAS(Ongoing)", "img/projects/work-in-progress.png", 
+        `
+        <div class="paragraph">
+            <header>
+            <h2>Overview</h2>
+            </header>
+         <strong>Unreal5 GAS</strong> is a multiplayer RPG game project created by Unreal Engine 5 to learn about Gameplay Ability System (GAS) with <strong>JetBrains Rider</strong>.
+         <br/>You can learn more about project details and source code from <a target="_blank" href="https://github.com/Yunxiang-Li/Unreal5_GAS">related github repo</a>.
+        
+         </div>
+
+        <div class="paragraph">
+            <header>
+            <h2>Main Features</h2>
+            </header>
+            <ul>
+            <li>Ongoing </li>
+            </ul>
+        </div>
+    
+        <div class="paragraph center">
+            <img class="pc-screenshot" src="ongoing-projects.gif" alt="ongoing_1" />
+            <img class="pc-screenshot" src="ongoing-projects.gif" alt="ongoing_2" />
+        </div>
+        `, "#23bd69", true, true),
+    new ProjectData("project-2", "Unreal5 Game Programming Pattern", "img/projects/work-in-progress.png", 
+        `
+        <div class="paragraph">
+            <header>
+            <h2>Overview</h2>
+            </header>
+         This is a project about the implementation of multiple game programming patterns within Unreal Engine 5 with <strong>JetBrains Rider</strong>.
+         <br/>You can learn more about project details and source code from <a target="_blank" href="https://github.com/Yunxiang-Li/Unreal5_GameProgrammingPatterns">related github repo</a>.
+    
+        </div>
+    
+        <div class="paragraph">
+            <header>
+            <h2>Main Features</h2>
+            </header>
+            <ul>
+            <li>Ongoing </li>
+            </ul>
+        </div>
+    
+       <div class="paragraph center">
+            <img class="pc-screenshot" src="ongoing-projects.gif" alt="ongoing_3" />
+            <img class="pc-screenshot" src="ongoing-projects.gif" alt="ongoing_4" />
+        </div>
+        `, "#23bd69", true, true),
+    new ProjectData("project-3", "2D Stationary Portal (C++/Raylib)", "img/projects/work-in-progress.png", 
     `
     <div class="paragraph">
         <header>
         <h2>Overview</h2>
         </header>
-     <strong>SDL2 Shooter</strong> is a simple 2D space shooter game demo created by pure <strong>C</strong> language and
-     <strong>SDL(Simple DirectMedia Layer)</strong> with <strong>Visual Studio</strong>.
-     <br/>You can learn more about project details and source code from <a target="_blank" href="https://github.com/Yunxiang-Li/SDL2_simple_2D_shooter">related github repo</a>.
+     This is an simple implementation of 2D Stationary Portal with game feels, created by <strong>C++</strong> language and <strong>Raylib</strong> with <strong>CLion</strong>.
+     <br/>You can learn more about project details and source code from <a target="_blank" href="https://github.com/Yunxiang-Li/2D_Stationary_Portal">related github repo</a>.
 
-    </div>
-    <div class="paragraph center"> 
-        <iframe class="youtube" src="https://www.youtube.com/embed/tdR9VGLMhK8" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="paragraph">
@@ -21,24 +67,53 @@ export default [
         <h2>Main Features</h2>
         </header>
         <ul>
-        <li>Create multiple custom linked lists to update each spaceship, bullet, explosion, debris and point pod </li>
-        <li>Customize explosion effect made by ship debris</li>
-        <li>Apply basic AI on enemies to always aim at the player when firing bullets</li>
-        <li>Enable players to fire bullets to destroy enemies and collide with released point pods to gain scores</li>
-        <li>Implement highscore table which can be saved and loaded as a txt file</li>
-        <li>Add switch scene feature between titlescreen and highscore table</li>
-        <li>Use SDL_image to render sprites, utilize SDL_mixer to play sound effects and music</li>
+        <li>Ongoing </li>
         </ul>
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="img/projects/SDL2_Shooter/SDL2_Shooter_GIF.gif" alt="SDL2 Shooter GIF" />
-        <img class="pc-screenshot" src="img/projects/SDL2_Shooter/SDL2_Shooter_Screenshot_One.jpg" alt="SDL2 Shooter Screenshot One" />
-        <img class="pc-screenshot" src="img/projects/SDL2_Shooter/SDL2_Shooter_Screenshot_Two.jpg" alt="SDL2 Shooter Screenshot Two" />
-        <img class="pc-screenshot" src="img/projects/SDL2_Shooter/SDL2_Shooter_Screenshot_Three.jpg" alt="SDL2 Shooter Screenshot Three" />
+        <img class="pc-screenshot" src="ongoing-projects.gif" alt="ongoing_5" />
+        <img class="pc-screenshot" src="ongoing-projects.gif" alt="ongoing_6" />
     </div>
     `, "#23bd69", true, true),
-    new ProjectData("project-2", "2D City Builder(SFML)", "img/projects/SFML_CityBuilder/SFML_CityBuilder_thumbnail.jpg", `
+    new ProjectData("project-4", "2D Shooter(C++/SDL2)", "img/projects/SDL2_Shooter/SDL2_Shooter_Thumbnail.jpg", 
+        `
+        <div class="paragraph">
+            <header>
+            <h2>Overview</h2>
+            </header>
+         <strong>2D Shooter</strong> is a simple 2D space shooter game demo created by pure <strong>C</strong> language and
+         <strong>SDL(Simple DirectMedia Layer)</strong> with <strong>Visual Studio</strong>.
+         <br/>You can learn more about project details and source code from <a target="_blank" href="https://github.com/Yunxiang-Li/SDL2_simple_2D_shooter">related github repo</a>.
+    
+        </div>
+        <div class="paragraph center"> 
+            <iframe class="youtube" src="https://www.youtube.com/embed/tdR9VGLMhK8" frameborder="0" allowfullscreen></iframe>
+        </div>
+    
+        <div class="paragraph">
+            <header>
+            <h2>Main Features</h2>
+            </header>
+            <ul>
+            <li>Create multiple custom linked lists to update each spaceship, bullet, explosion, debris and point pod </li>
+            <li>Customize explosion effect made by ship debris</li>
+            <li>Apply basic AI on enemies to always aim at the player when firing bullets</li>
+            <li>Enable players to fire bullets to destroy enemies and collide with released point pods to gain scores</li>
+            <li>Implement highscore table which can be saved and loaded as a txt file</li>
+            <li>Add switch scene feature between titlescreen and highscore table</li>
+            <li>Use SDL_image to render sprites, utilize SDL_mixer to play sound effects and music</li>
+            </ul>
+        </div>
+    
+        <div class="paragraph center">
+            <img class="pc-screenshot" src="img/projects/SDL2_Shooter/SDL2_Shooter_GIF.gif" alt="SDL2 Shooter GIF" />
+            <img class="pc-screenshot" src="img/projects/SDL2_Shooter/SDL2_Shooter_Screenshot_One.jpg" alt="SDL2 Shooter Screenshot One" />
+            <img class="pc-screenshot" src="img/projects/SDL2_Shooter/SDL2_Shooter_Screenshot_Two.jpg" alt="SDL2 Shooter Screenshot Two" />
+            <img class="pc-screenshot" src="img/projects/SDL2_Shooter/SDL2_Shooter_Screenshot_Three.jpg" alt="SDL2 Shooter Screenshot Three" />
+        </div>
+        `, "#23bd69", true, true),
+    new ProjectData("project-5", "2D City Builder(C++/SFML)", "img/projects/SFML_CityBuilder/SFML_CityBuilder_thumbnail.jpg", `
     <div class="paragraph">
         <strong>SFML City Builder</strong> is a simple 2D isometric city building game demo created by <strong>C++</strong> language and
         <strong>SFML(Simple and Fast Multimedia Library)</strong> with <strong>CLion</strong>.
@@ -70,92 +145,4 @@ export default [
     <img class="pc-screenshot" src="img/projects/SFML_CityBuilder/SFML_CityBuilder_Screenshot_four.jpg" alt="SFML CityBuilder Screenshot four" />
     </div>
     `, "#5a78af", true, true),
-    new ProjectData("project-3", "Drawing Overload", "img/projects/project-3-icon.png", `
-    <div class="paragraph">
-        <strong>Drawing Overload</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@miphotography">Miesha Maiden</a>.
-    </div>
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-        Playable in the browser (WebGL) on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-        </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-    </div>
-    `, "#383838"),
-    new ProjectData("project-4", "Eugeneable", "img/projects/project-4-icon.png", `
-    <div class="paragraph">
-    <strong>Eugeneable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-    <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
-    </div>
-    
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-    </div>
-    `, "#e80fb7"),
-    new ProjectData("project-5", "Cloud Drew Land", "img/projects/project-5-icon.png", `
-    <div class="paragraph">
-        <strong>Cloud Drew Land</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@cottonbro">cottonbro</a>.
-    </div>
-    
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-        </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-    </div>`, "#e48246")
 ];

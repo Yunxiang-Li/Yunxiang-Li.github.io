@@ -24,15 +24,11 @@
       </li>
       <li>
         <i class="fa fa-mobile fa-lg fa-fw"></i>
-        <a href="(857) 763-9185" target="_blank">my mobile</a>
+        <a href="(707) 242-5114" target="_blank">my mobile</a>
       </li>
       <li>
         <i class="fa fa-steam fa-lg fa-fw"></i>
         <a href="https://steamcommunity.com/id/ldlddy/" target="_blank">my Steam</a>
-      </li>
-      <li>
-        <i class="fa fa-user-circle-o fa-lg fa-fw"></i>
-        <a href="https://yunxli.com/" target="_blank">personal website</a>
       </li>
     </ul>
 

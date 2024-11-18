@@ -30,9 +30,18 @@ export default Vue.extend({
 Helpers.preloadImages([
   "img/projects/SDL2_Shooter/SDL2_Shooter_GIF.gif",
   "img/projects/SDL2_Shooter/SDL2_Shooter_Thumbnail.jpg",
+  "img/projects/SDL2_Shooter/SDL2_Shooter_Screenshot_One.jpg",
+  "img/projects/SDL2_Shooter/SDL2_Shooter_Screenshot_Two.jpg",
+  "img/projects/SDL2_Shooter/SDL2_Shooter_Screenshot_Three.jpg",
   "img/projects/SFML_CityBuilder/SFML_CityBuilder_thumbnail.jpg",
-  "img/projects/project-2-icon.png",
-  "img/projects/project-3-icon.png"
+  "img/projects/SFML_CityBuilder/SFML_CityBuilder_Screenshot_one.jpg",
+  "img/projects/SFML_CityBuilder/SFML_CityBuilder_Screenshot_two.jpg",
+  "img/projects/SFML_CityBuilder/SFML_CityBuilder_Screenshot_three.jpg",
+  "img/projects/SFML_CityBuilder/SFML_CityBuilder_Screenshot_four.jpg",
+  "img/projects/ongoing-projects.gif",
+  "img/projects/work-in-progress.png",
+  "img/projects/NBA2K/NBA2K25.avif",
+  "img/projects/NBA2K/NBA2K24.avif",
 ]);
 
 </script>
