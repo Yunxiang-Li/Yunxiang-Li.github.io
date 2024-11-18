@@ -22,11 +22,11 @@ export default [
         </div>
     
         <div class="paragraph center">
-            <img class="pc-screenshot" src="ongoing-projects.gif" alt="ongoing_1" />
-            <img class="pc-screenshot" src="ongoing-projects.gif" alt="ongoing_2" />
+            <img class="pc-screenshot" src="img/projects/ongoing-projects.gif" alt="ongoing_1" />
+            <img class="pc-screenshot" src="img/projects/ongoing-projects.gif" alt="ongoing_2" />
         </div>
         `, "#23bd69", true, true),
-    new ProjectData("project-2", "Unreal5 Game Programming Pattern", "img/projects/work-in-progress.png", 
+    new ProjectData("project-2", "Unreal5 Game Programming Pattern(Ongoing)", "img/projects/work-in-progress.png", 
         `
         <div class="paragraph">
             <header>
@@ -47,11 +47,11 @@ export default [
         </div>
     
        <div class="paragraph center">
-            <img class="pc-screenshot" src="ongoing-projects.gif" alt="ongoing_3" />
-            <img class="pc-screenshot" src="ongoing-projects.gif" alt="ongoing_4" />
+            <img class="pc-screenshot" src="img/projects/ongoing-projects.gif" alt="ongoing_3" />
+            <img class="pc-screenshot" src="img/projects/ongoing-projects.gif" alt="ongoing_4" />
         </div>
         `, "#23bd69", true, true),
-    new ProjectData("project-3", "2D Stationary Portal (C++/Raylib)", "img/projects/work-in-progress.png", 
+    new ProjectData("project-3", "2D Stationary Portal (C++/Raylib)(Ongoing)", "img/projects/work-in-progress.png", 
     `
     <div class="paragraph">
         <header>
@@ -72,8 +72,8 @@ export default [
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="ongoing-projects.gif" alt="ongoing_5" />
-        <img class="pc-screenshot" src="ongoing-projects.gif" alt="ongoing_6" />
+        <img class="pc-screenshot" src="img/projects/ongoing-projects.gif" alt="ongoing_5" />
+        <img class="pc-screenshot" src="img/projects/ongoing-projects.gif" alt="ongoing_6" />
     </div>
     `, "#23bd69", true, true),
     new ProjectData("project-4", "2D Shooter(C++/SDL2)", "img/projects/SDL2_Shooter/SDL2_Shooter_Thumbnail.jpg", 

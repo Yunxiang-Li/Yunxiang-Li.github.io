@@ -40,8 +40,8 @@ Helpers.preloadImages([
   "img/projects/SFML_CityBuilder/SFML_CityBuilder_Screenshot_four.jpg",
   "img/projects/ongoing-projects.gif",
   "img/projects/work-in-progress.png",
-  "img/projects/NBA2K/NBA2K25.avif",
-  "img/projects/NBA2K/NBA2K24.avif",
+  "img/projects/NBA2K/NBA2K25.png",
+  "img/projects/NBA2K/NBA2K24.png",
 ]);
 
 </script>

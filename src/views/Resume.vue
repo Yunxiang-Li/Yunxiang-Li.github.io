@@ -7,11 +7,11 @@
 
       <h3>Software Engineer( Gameplay/AI ) - Visual Concepts</h3>
       <h4>November 2023 - Present( Novato, California, United States )</h4>
-      <h3>NBA 2K25</h3>
+      <h4>Contributed to <a href="https://nba.2k.com/2k25" target="_blank"><strong>NBA 2K25</strong></a> as a Gameplay Engineer</h4>
 
       <h3>Software Engineer( Bullpen ) - Visual Concepts</h3>
       <h4>January 2023 - November 2023( Novato, California, United States )</h4>
-      <h3>NBA 2K24</h3>
+      <h4>Worked on <a href="https://nba.2k.com/2k24" target="_blank"><strong>NBA 2K24</strong></a> as a Bullpen Engineer, collaborating with multiple teams in rotational roles</h4>
 
       <h3>Associate C++/Unity Engineer - Storm Flag Games</h3>
       <h4>July 2021 - December 2021( Dedham, Massachusetts, United States )</h4>
@@ -24,11 +24,12 @@
             <li>Improved version control and project management proficiency by using Git workflows and tools like Bitbucket, JIRA, and Confluence, enhancing team collaboration and development processes.</li>
             </ul>
       </div>
+      <div style="clear: both;"></div>
 
       <h2>Education</h2>
 
       <h3>Northeastern University( 2019 - 2022 )</h3>
-      <h4>Master of Science - MS, Computer Science</h4>
+      <h4>Master of Science - Computer Science</h4>
 
     </div>
   </div>

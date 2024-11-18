@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h1>Archived Game Project</h1>
+    <h1>Commercial Titles</h1>
 
     <div style="margin-bottom: 30px; font-size: 1.5em;">
-      And here are some other stuff I've made or heavily contributed to, which are totally different than the stuff from earlier.
+      Below is a list of all the commercial game titles I have contributed to.
     </div>
     <ProjectsList v-bind:projects="projects" />
   </div>

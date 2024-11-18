@@ -3,13 +3,13 @@
     <h1>Game Projects </h1>
 
     <div style="margin-bottom: 30px; font-size: 1.5em;">
-      The following are some game projects I've made recently.
+      The following are the five most recent game projects I have developed.
     </div>
 
     <ProjectsList v-bind:projects="projects" />
 
     <div style="margin-top: 20px; font-size: 1.5em;">
-      There is more to see on <a target="_blank" href="https://github.com/Yunxiang-Li">my github</a>
+      You can find more of my previous projects, in addition to the five listed above, on my <a target="_blank" href="https://github.com/Yunxiang-Li">Github</a>
     </div>
   </div>
 </template>
