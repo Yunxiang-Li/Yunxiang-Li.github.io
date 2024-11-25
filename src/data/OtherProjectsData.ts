@@ -25,7 +25,7 @@ export default [
           <li>Optimized defensive help triggers to anticipate possession changes and respond more intelligently to offensive turnovers during critical moments.</li>
         </ul>
     </div>
-    `, "##Ff0000", true, true),
+    `, "#23bd69", true, true),
   new ProjectData("project-6", "NBA 2K24", "img/projects/NBA2K/NBA2K24.png", `
     <div class="paragraph">
       <p>
@@ -50,5 +50,5 @@ export default [
           <li>Improved internal tools by implementing file history comparison, object grouping, and multi-threaded directory scanning, streamlining file management and search functions.</li>
         </ul>
     </div>
-    `, "#Ffff00", true, true),
+    `, "#5a78af", true, true),
 ];
