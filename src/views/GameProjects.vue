@@ -9,7 +9,7 @@
     <ProjectsList v-bind:projects="projects" />
 
     <div style="margin-top: 20px; font-size: 1.5em;">
-      You can find more of my previous projects, in addition to the five listed above, on my <a target="_blank" href="https://github.com/Yunxiang-Li">Github</a>
+      You can find more of my previous projects, in addition to the four listed above, on my <a target="_blank" href="https://github.com/Yunxiang-Li">Github</a>
     </div>
   </div>
 </template>
