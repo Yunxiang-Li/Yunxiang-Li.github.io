@@ -25,7 +25,7 @@ export default [
             <img class="pc-screenshot" src="img/projects/ongoing-projects.gif" alt="ongoing_1" />
             <img class="pc-screenshot" src="img/projects/ongoing-projects.gif" alt="ongoing_2" />
         </div>
-        `, "#23bd69", true, true),
+        `, "#000000", true, true),
     new ProjectData("project-2", "Unreal5 Game Programming Pattern(Ongoing)", "img/projects/work-in-progress.png", 
         `
         <div class="paragraph">
@@ -50,33 +50,8 @@ export default [
             <img class="pc-screenshot" src="img/projects/ongoing-projects.gif" alt="ongoing_3" />
             <img class="pc-screenshot" src="img/projects/ongoing-projects.gif" alt="ongoing_4" />
         </div>
-        `, "#23bd69", true, true),
-    new ProjectData("project-3", "2D Stationary Portal (C++/Raylib)(Ongoing)", "img/projects/work-in-progress.png", 
-    `
-    <div class="paragraph">
-        <header>
-        <h2>Overview</h2>
-        </header>
-     This is an simple implementation of 2D Stationary Portal with game feels, created by <strong>C++</strong> language and <strong>Raylib</strong> with <strong>CLion</strong>.
-     <br/>You can learn more about project details and source code from <a target="_blank" href="https://github.com/Yunxiang-Li/2D_Stationary_Portal">related github repo</a>.
-
-    </div>
-
-    <div class="paragraph">
-        <header>
-        <h2>Main Features</h2>
-        </header>
-        <ul>
-        <li>Ongoing </li>
-        </ul>
-    </div>
-
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="img/projects/ongoing-projects.gif" alt="ongoing_5" />
-        <img class="pc-screenshot" src="img/projects/ongoing-projects.gif" alt="ongoing_6" />
-    </div>
-    `, "#23bd69", true, true),
-    new ProjectData("project-4", "2D Shooter(C++/SDL2)", "img/projects/SDL2_Shooter/SDL2_Shooter_Thumbnail.jpg", 
+        `, "#000000", true, true),
+    new ProjectData("project-3", "2D Shooter(C++/SDL2)", "img/projects/SDL2_Shooter/SDL2_Shooter_Thumbnail.jpg", 
         `
         <div class="paragraph">
             <header>
@@ -113,7 +88,7 @@ export default [
             <img class="pc-screenshot" src="img/projects/SDL2_Shooter/SDL2_Shooter_Screenshot_Three.jpg" alt="SDL2 Shooter Screenshot Three" />
         </div>
         `, "#23bd69", true, true),
-    new ProjectData("project-5", "2D City Builder(C++/SFML)", "img/projects/SFML_CityBuilder/SFML_CityBuilder_thumbnail.jpg", `
+    new ProjectData("project-4", "2D City Builder(C++/SFML)", "img/projects/SFML_CityBuilder/SFML_CityBuilder_thumbnail.jpg", `
     <div class="paragraph">
         <strong>SFML City Builder</strong> is a simple 2D isometric city building game demo created by <strong>C++</strong> language and
         <strong>SFML(Simple and Fast Multimedia Library)</strong> with <strong>CLion</strong>.

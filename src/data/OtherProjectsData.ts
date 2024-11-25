@@ -1,7 +1,7 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-  new ProjectData("project-6", "NBA 2K25", "img/projects/NBA2K/NBA2K25.png", `
+  new ProjectData("project-5", "NBA 2K25", "img/projects/NBA2K/NBA2K25.png", `
     <div class="paragraph">
       <p>
         <strong>NBA 2K25</strong> is a 2024 sports game developed by Visual Concepts and published by 2K, based on the National Basketball Association (NBA). It is the 26th installment in the NBA 2K series and is the successor to NBA 2K24 (2023).
@@ -26,7 +26,7 @@ export default [
         </ul>
     </div>
     `, "#5a78af", true, true),
-  new ProjectData("project-7", "NBA 2K24", "img/projects/NBA2K/NBA2K24.png", `
+  new ProjectData("project-6", "NBA 2K24", "img/projects/NBA2K/NBA2K24.png", `
     <div class="paragraph">
       <p>
         <strong>NBA 2K24</strong> is a 2023 basketball video game developed by Visual Concepts Austin and published by 2K, based on the National Basketball Association (NBA).

@@ -3,7 +3,7 @@
     <h1>Game Projects </h1>
 
     <div style="margin-bottom: 30px; font-size: 1.5em;">
-      The following are the five most recent game projects I have developed.
+      The following are the four most recent game projects I have developed.
     </div>
 
     <ProjectsList v-bind:projects="projects" />
